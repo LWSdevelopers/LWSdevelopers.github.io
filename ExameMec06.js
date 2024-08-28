@@ -65,8 +65,7 @@ const qa = [
     a : ["É a água que circula pelas camisas de água do motor.", "É o ar que circula pelo cárter de óleo do motor", "É o ar que circula pelas camisas de ar do motor.", "É a água que circula pelo cárter do motor.",]
   },
   {
-    q : "A direcção assistida permite:
-",
+    q : "A direcção assistida permite:",
     a : ["Diminuir o esforço do condutor no volante.", "Aumentar o ângulo de viragem.", "Diminuir a desmultiplicação no volante.", "Alinhar a direcção com as rodas.",]
   },
   {
