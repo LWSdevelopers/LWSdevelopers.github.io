@@ -35,7 +35,7 @@ const qa = [
   {
     q : "Quando existe dificuldade em pôr o motor a trabalhar, pode-se insistir com o motor de arranque?",
     a : ["A insistência excessiva causa danos na bateria.", "Sim, desde que a bateria tenha líquido suficiente.", "Sempre até o motor de arranque carregar a bateria.",]
-  } ,
+  },
   {
     q : "Para substituir um pneu furado deve-se começar por:",
     a : ["Aliviar as porcas antes de levantar o veículo.", "Calçar o veículo e levantá-lo com o macaco.", "Verificar a pressão do ar contido no pneu.",]
@@ -51,7 +51,7 @@ const qa = [
   {
     q : "Em caso de travagem sobre pavimento escorregadio, a que pode dever-se o resvalamento do veículo?",
     a : ["Os pneus gastos.", "Os pneus pouco rodados.", "Ar na tubagem dos travões.",]
-  } ,
+  },
   {
     q : "Como devem ser transportados animais vivos de pequeno porte?",
     a : ["Em grades adequadas ao seu tamanho.", "Em veículos caixa de carga tipo cisterna.", "Em veículos de caixa isotérmica",]
@@ -68,7 +68,7 @@ const qa = [
     q : "A direcção assistida permite:
 ",
     a : ["Diminuir o esforço do condutor no volante.", "Aumentar o ângulo de viragem.", "Diminuir a desmultiplicação no volante.", "Alinhar a direcção com as rodas.",]
-  } ,
+  },
   {
     q : "Os principais componentes do sistema de transmissão são:",
     a : ["Embraiagem, caixa de velocidades e diferencial.", "Veio de transmissão, volante do motor e pneus.", "Pendural, barra lateral, parafuso sem-fim e sector.",]
@@ -84,7 +84,7 @@ const qa = [
   {
     q : "Que cuidados deve ter com as molas de suspensão?",
     a : ["Não pôr carga excessiva, trazer devidamente lubrificadas as cavilhas e evitar covas.", "Colocar a carga na caixa de carga sempre à retaguarda.", "Substitui-las de 5.000 em 5.000 km.",]
-  } ,
+  },
   {
     q : "No motor a falta do filtro de ar facilita a entrada das impurezas nos cilindros, e tem como consequências:",
     a : ["Desgaste dos cilindros.", "Paragem do motor.", "Sobreaquecimento do motor",]
@@ -98,7 +98,7 @@ const qa = [
     a : ["No centro da caixa de carga.", "Toda puxada para a retaguarda", "O mais próximo possível da cabina.",]
   },
   {
-    q : "Qual a função da placa de díodos (retificador de tensão) do alternador?",
+    q : "Qual a função da placa de díodos ou retificador de tensão do alternador?",
     a : ["Transformar a corrente alternada em contínua e proteger a bateria de uma possível descarga.", "Regular a intensidade de corrente das velas.", "Transformar a corrente de baixa em alta tensão.",]
   }
 ];
