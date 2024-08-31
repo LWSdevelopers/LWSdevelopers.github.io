@@ -35,7 +35,7 @@ const qa = [
   {
     q : "Porque se deve pôr o motor a trabalhar quando se deitar água no radiador com o motor quente?",
     a : ["Porque assim obriga-se a água a circular e não se corre o risco de o motor poder estalar..", "Porque assim o termóstato fica sempre aberto e a água circula livremente", "Porque assim obriga-se a água a circular e o radiador enche-se de água mais rápido",]
-  } ,
+  },
   {
     q : "Para que a lubrificação se possa realizar em boas condições é conveniente:",
     a : ["Não deixar funcionar o motor em marcha lenta durante muito tempo, porque a bomba envia pouco óleo.", "Não deixar o gasóleo atingir o nível mínimo no depósito de combustível", "Não deixar funcionar o motor em marcha lenta durante muito tempo, porque a bomba envia pouca água.",]
@@ -68,7 +68,7 @@ const qa = [
   {
     q : "Qual o inconveniente de deixar a chave de ignição ligada com o motor parado?",
     a : ["Pode queimar-se a bobina.", "Podem incendiar-se os injetores", "Os enrolamentos do conjuntor-disjuntor podem aquecer.", "Pode queimar-se o alternador",]
-  } ,
+  },
   {
     q : "Um automóvel que transporta uma carga muito alta, ao curvar para a direita, a carga tende a cair para:",
     a : ["A esquerda.", "A retaguarda", "A direita",]
@@ -84,7 +84,7 @@ const qa = [
   {
     q : "Quando o gasóleo não chega à bomba injetora, qual poderá ser a causa?",
     a : ["Filtro de combustível entupido.", "Injetores sujos", "Tubo de retorno de gasóleo entupido.",]
-  } ,
+  },
   {
     q : "No caso de uma mudança saltar, a causa será:",
     a : ["Mola fixadora do anel sincronizador fraca ou partida.", "Falta de lubrificação.", "Embraiagem a patinar",]
