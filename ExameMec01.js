@@ -29,8 +29,8 @@ const qa = [
     a : ["O filtro de óleo.", "A bomba de óleo.", "O filtro de ar.",]
   },
   {
-    q : "Um pneu com pressão muito inferior à recomendada, apresenta maior desgaste:",
-    a : ["Nos bordos laterais.", "No lado esquerdo", "Na zona central.", "No lado direito.",]
+    q : "Qual é a principal função das touches?",
+    a : ["A transmissão do movimento das cames às hastes das válvulas.", "Lubrificar as válvulas", "Na zona central.", "Guiar as válvulas no seu deslocamento.",]
   },
   {
     q : "Durante o transporte de materiais pulverulentas em automóvel de mercadorias de caixa aberta, o condutor deve assegurar-se de que:",
@@ -57,8 +57,8 @@ const qa = [
     a : ["Retirar o ar das tubagens.", "Filtrar o líquido do circuito.", "Afinar as maxilas.",]
   },
   {
-    q : "Num automóvel, para extinguir um incêndio provocado por um curto-circuito deve-se:",
-    a : ["Desligar a ignição e utilizar um extintor.", "Desligar a ignição e utilizar apenas água.", "Desligar a ignição e utilizar apenas água com óleo.",]
+    q : "Se o carburador tiver a bóia rota, qual poderá ser a consequência?",
+    a : ["O motor afoga-se e pára.", "O motor ganha mais potência.", "Trabalha no relanti.",]
   },
   {
     q : "Os pneus de um automóvel ligeiro podem danificar-se seriamente quando:",
@@ -73,8 +73,8 @@ const qa = [
     a : ["Bendix", "Bobine", "Solenoide",]
   },
   {
-    q : "A barra de torção ou barra estabilizadora pertence ao sistema de:",
-    a : ["Suspensão", "Travagem", "Direção",]
+    q : "O sistema anti bloqueio ABS, actua:",
+    a : ["Em cada uma das rodas independentes.", "Na transmissão", "Na Direção",]
   },
   {
     q : "Durante o transporte de materiais pulverulentas em automóvel pesado, o condutor deve assegurar-se de que:",

@@ -1,104 +1,104 @@
 // (PART A) QUESTIONS & ANSWERS - THE FIRST ANSWER IS THE CORRECT ONE
 const qa = [
   {
-    q : "Qual o sistema de alimentação atual do motor que veio substituir o carburador?",
-    a : ["É o sistema de injeção eletrónica de combustível.", "É o sistema de alimentação por gravidade.", "É o sistema de alimentação por burrinho.",]
+    q : "As bombas de óleo de engrenagem são constituídas por:",
+    a : ["Duas rodas dentadas, com o mesmo diâmetro.", "Dois lóbulos", "Três rodas dentadas",]
   },
   {
-    q : "Manga de eixo e barra transversal pertencem:",
-    a : ["Ao sistema de direção.", "À caixa de velocidades.", "Ao sistema de transmissão", "Ao sistema de suspensão.",]
+    q : "Durante o funcionamento de um motor de ciclo a quatro tempos, o êmbolo desloca-se do PMS para o PMI nos tempos de:",
+    a : ["Admissão e combustão/explosão.", "Admissão e escape", "Compressão e escape",]
   },
   {
-    q : "Num automóvel com tração traseira, como se chama o veio que fica entre o diferencial e a caixa de velocidade?",
-    a : ["Veio de transmissão.", "Veio de excêntricos.", "Veio de balanceiros.", "Veio primário.",]
+    q : "O que é ABS?",
+    a : ["Sistema antibloqueio de rodas", "Travão mecânico", "Travão pneumático",]
   },
   {
-    q : "As avarias mais frequentes na bateria, são:",
-    a : ["Elementos avariados.", "Escovas e elementos avariados.", "Fusíveis e elementos avariados.",]
+    q : "As válvulas têm folgas, para:",
+    a : ["Para compensar a sua dilatação", "Não prenderem", "Abrirem facilmente",]
   },
   {
-    q : "A mola existente nas maxilas dos travões tem a função de:",
-    a : ["Afastar do tambor as maxilas e os respetivos calços.", "Aumentar a força de travagem.", "Pressionar as maxilas e os respetivos calços contra o tambor.",]
+    q : "Como fazer a manutenção de um filtro de ar?",
+    a : ["Substituir periodicamente.", "Limpar com ar", "Limpar com óleo",]
   },
   {
-    q : "Qual dos seguintes órgãos pertence ao sistema de suspensão?",
-    a : ["Barra de torção.", "Prato de pressão", "Manga de eixo.", "Pinhão e cremalheira.",]
+    q : "No caso de uma bomba de óleo accionada pela árvore de cames, por cada volta completa desta, o eixo da bomba roda:",
+    a : ["1 volta.", "6 voltas.", "2 voltas.", "3 voltas",]
   },
   {
-    q : "Os órgãos que servem para impedir a passagem dos gases da câmara de explosão para o cárter são:",
-    a : ["Os segmentos.", "Os êmbolos", "As válvulas.",]
+    q : "Quantos carretos tem o veio primário de um veículo com uma caixa de 4 velocidades?",
+    a : ["1 carreto.", "3 carretos", "2 carretos",]
   },
   {
-    q : "Num automóvel para extinguir um incêndio provocado por um curto-circuito, o condutor deve:",
-    a : ["Desligar a ignição e utilizar um extintor de incêndio..", "Desligar a ignição e utilizar água com óleo.", "Desligar a ignição e utilizar água, unicamente.",]
+    q : "Indique o elemento que não faz parte do conjunto de componentes de uma válvula:",
+    a : ["Camisa.", "Mola", "Meia lua",]
   },
   {
-    q : "Quando transportar uma carga de pequeno volume, cujo peso seja igual à capacidade de carga máxima do veículo, deve colocá-la:",
-    a : ["No centro da caixa de carga.", "Sobre o eixo traseiro.", "Junto à cabine.",]
+    q : "Onde engrena o carreto do motor de arranque?",
+    a : ["Coroa dentada do volante do motor.", "Coroa dentada do veio primário", "No eixo secundário da caixa de velocidades",]
   } ,
   {
-    q : "Sempre que se substitui um fusível este funde. Qual poderá ser a causa?",
-    a : ["Curto-circuito..", "Um dos fios do circuito elétrico partido.", "Uma lâmpada fundida.", "Bateria com excesso de carga.",]
+    q : "As bombas de água dispõem um furo, para:",
+    a : ["Drenar o sistema, quando está cheio.", "Lubrificar a bomba de agua", "Ventilar o corpo ou bomba",]
   },
   {
-    q : "Num automóvel equipado com motor Diesel, se verificar pela saida do tubo de escape gases de cor preta a causa pode ser:",
-    a : ["Injetores mal regulados.", "Excesso de ar de admissão.", "Junta do cárter a vedar mal.",]
+    q : "Carburador tem como função:",
+    a : ["Pulverizar a gasolina e misturar com ar.", "Filtrar a gasolina", "Separar o ar da gasolina",]
   },
   {
-    q : "Nos travões hidráulicos, as pastilhas são acionadas e pressionadas contra o disco:",
-    a : ["Pelos êmbolos dos cilindros.", "Pelo servo-freio.", "Pelos pratos de pressão.", "Pela pressão do ar.",]
+    q : "O deflector do radiador não deverá ser retirado porque:",
+    a : ["Anula o funcionamento da ventoinha", "É perigo", "Aumenta o ruído da ventoinha",]
   },
   {
-    q : "O veio primário da caixa de velocidades recebe o movimento do motor através:",
-    a : ["Da embraiagem.", "Da correia de distribuição.", "Da cambota",]
+    q : "Um turbo compressor é acionado:",
+    a : ["Pelos gases de escape do motor", "Por uma correia ligada á cambota", "Pelos gases de admissão do motor",]
   } ,
   {
-    q : "Alinhar a direção significa:",
-    a : ["Afinar a convergência ou a divergência das rodas direcionais.", "Regular as folgas da direção.", "Anular todas as folgas da direção.",]
+    q : "Os órgãos que compõem a suspensão, por exemplo molas, amortecedores, braços oscilantes, são classificados como:",
+    a : ["Massa não suspensa.", "Massa suspensa", "Nenhuma opção é correta",]
   },
   {
-    q : "O dispositivo de acoplamento que em conjunto com um motor elétrico permite que o motor de combustão arranque, denomina-se:",
-    a : ["Bendix.", "Veio de excêntricos.", "Carreto de distribuição.",]
+    q : "No tempo de admissão o êmbolo:",
+    a : ["Desce com a válvula de admissão aberta.", "Sobe com a válvula de admissão fechada.", "Desce com a válvula de admissão fechada.",]
   },
   {
-    q : "As barras de torção fazem parte do sistema de:",
-    a : ["Suspensão.", "Transmissão.", "Direção",]
+    q : "Com o veículo parado e o motor a funcionar, o veio de transmissão:",
+    a : ["Não roda.", "Roda para esquerda", "Roda para direita",]
   },
   {
-    q : "Num motor sem termostato a água do sistema de refrigeração:",
-    a : ["Demora mais tempo a aquecer.", "Aquece rapidamente.", "Não circula.",]
+    q : "Onde se encontra situada a turbina que, devido a um eixo comum, movimenta o turbo compressor?",
+    a : ["No coletor de escape.", "Na cabeça do motor", "No coletor de admissão",]
   } ,
   {
-    q : "O sobreaquecimento dos pneus pode ser provocado por:",
-    a : ["Pressão muito inferior ao normal.", "Folga na direcção.", "Pressão um pouco superior ao normal.",]
+    q : "Para se medir a folga da válvula deve-se rodar o motor até que fique a válvula na posição de:",
+    a : ["Completamente fechada", "Desmontada", "Completamente aberta",]
   },
   {
-    q : "Como deve ser transportada uma carga pouco volumosa e cujo peso seja igual à capacidade de carga máxima do veículo?",
-    a : ["No centro da caixa de carga.", "Centrado sobre o eixo da retaguarda.", "O mais próximo possível da cabina.",]
+    q : "Num dos veios excêntricos, a parte de encaixo/dentado localizado na ponta do veio:",
+    a : ["Nos motores a gasolina, serve para accionar o distribuidor.", "Nos motores a gasóleo, serve para accionar a bomba injectora.", "Nenhuma opção",]
   },
   {
-    q : "Qual o instrumento que permite ao condutor verificar se o alternador está a carregar a bateria?",
-    a : ["O voltímetro", "O densímetro", "O amperímetro.", "O manómetro.",]
+    q : "Qual é a válvula, no tampão do radiador, que controla a pressão do sistema de arrefecimento e deixa sair o excesso de água ou vapor, quando necessário?",
+    a : ["Válvula de pressão.", "Válvula de vácuo", "Válvula de escape",]
   },
   {
-    q : "Nos motores diesel, se entrar ar para os orgãos de alimentação de combustível, o motor:",
-    a : ["Pára por falta de injeção de combustível.", "Fica a trabalhar acelerado.", "Trabalha só ao ralenti",]
+    q : "A mola de lâminas foda-se ao quadro por:",
+    a : ["Um brinco e uma cavilha.", "Rebites", "Encaixe",]
   } ,
   {
-    q : "Qual a característica mais importante duma direção assistida?",
-    a : ["A direção pode ser manejada com pouco esforço do condutor.", "Nunca é necessário proceder à sua lubrificação.", "A direção só pode ser manejada com muito esforço do condutor.",]
+    q : "Durante o funcionamento de um motor á 4 tempos",
+    a : ["A árvore de cames efectua metade das rotações da cambota.", "A árvore de cames efectua o triplo das rotações da cambota.", "A árvore de cames efectua o dobro das rotações da cambota.",]
   },
   {
-    q : "O motor de arranque recebe corrente:",
-    a : ["Da bateria.", "Do distribuidor.", "Da bobine.",]
+    q : "Os amortecedores a gás funcionam de forma idêntica aos hidráulicos. Qual ou quais dos fluídos operam nos amortecedores a gás?",
+    a : ["Óleo e azoto sob pressão.", "Óleo", "Hidrogênio",]
   },
   {
-    q : "Nos motores a gasolina, a bobine tem como função transformar a corrente:",
-    a : ["De baixa em alta tensão.", "Contínua em alterna.", "De alta em baixa tensão.",]
+    q : "Com que peça se une o pé da biela ao êmbolo?",
+    a : ["Cavilha.", "Bronze", "Cardan",]
   },
   {
-    q : "Como se verifica se os depósitos dos travões a ar, têm pressão suficiente?",
-    a : ["Através do respetivo manómetro.", "Através do termómetro.", "Através do vacuómetro.",]
+    q : "Na verificação da estanquicidade de um sistema de arrefecimento, se o manómetro de verificação indicar uma queda de pressão, isso significa que:",
+    a : ["Existem fugas no circuito.", "A ventoinha não está funcionando", "Termostato avariado",]
   }
 ];
 

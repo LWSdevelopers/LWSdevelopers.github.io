@@ -21,8 +21,8 @@ const qa = [
     a : ["Maxilas muito afastadas ou calços muito gastos.", "Bom nível de óleo no sistema de travagem.", "Maxilas muito apertadas ou calços novos.",]
   },
   {
-    q : "Qual a função do alternador?",
-    a : ["Carregar a bateria.", "Alimentar o motor de arranque.", "Transformar a corrente de baixa em alta tensão.",]
+    q : "O movimento de semi-rotação dos êmbolos dos elementos da bomba injectora serve para:",
+    a : ["Regular a quantidade de gasóleo a ser consumido", "Alimentar o motor de arranque.", "Transformar a corrente de baixa em alta tensão.",]
   },
   {
     q : "Os pneus gastam-se muito na parte central do piso, quando rodam:",
@@ -77,20 +77,20 @@ const qa = [
     a : ["Transformar a corrente alternada em contínua e proteger a bateria de uma possível descarga.", "Regular a intensidade de corrente das velas.", "Transformar a corrente de baixa em alta tensão.",]
   },
   {
-    q : "Como deve ser transportada uma carga pouco volumosa cujo peso seja igual à capacidade de carga máxima do veículo?",
-    a : ["No centro da caixa de carga.", "Centrado sobre o eixo da retaguarda.", "O mais próximo possível da cabina.",]
+    q : "Que tipo de motor tem uma relação de compressão mais alta?",
+    a : ["O motor de combustão", "O motor de explosão", "Não há diferença.",]
   },
   {
     q : "A finalidade do filtro de gasóleo, é:",
     a : ["Reter as impurezas contidas no gasóleo.", "Filtrar o óleo contido no gasóleo.", "Filtrar a água existente no gasóleo.",]
   } ,
   {
-    q : "Que indicação dá o manómetro do óleo?",
-    a : ["Indica a pressão do óleo.", "Indica o nível do óleo.", "Indica as fugas de óleo.", "Indica a temperatura do óleo.",,]
+    q : "Para que a água circule no radiador é preciso que o termóstato a deixe circular depois de:",
+    a : ["de a água atingir a temperatura de 70ºC a 80ºC.", "de a água atingir a temperatura de 100ºC", "de a água atingir a temperatura de 40ºC", "de a água atingir a temperatura de 120ºC",,]
   },
   {
-    q : "A ventoinha de refrigeração serve para:",
-    a : ["Reduzir a temperatura da água.", "Reduzir a temperatura do óleo de lubrificação.", "Arrefecer o ar que atravessa o radiador.",]
+    q : "Num motor que funciona num ciclo a quatro tempos, de quatro cilindros em linha, em cada 2 voltas completas da cambota:",
+    a : ["Dão-se quatro combustões.", "Dão-se duas combustões.", "Dão-se 3 combustões",]
   },
   {
     q : "Os travões pneumáticos actuam por meio:",

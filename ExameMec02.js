@@ -1,104 +1,104 @@
 // (PART A) QUESTIONS & ANSWERS - THE FIRST ANSWER IS THE CORRECT ONE
 const qa = [
   {
-    q : "Os elementos que constituem a suspensão são:",
-    a : ["Os pneumáticos, as molas e os amortecedores.", "Os pneumáticos, os amortecedores e as barras de direção.", "Os pneumáticos, as barras de torção e os planetários.",]
+    q : "Os fusíveis têm como principal função:",
+    a : ["Proteger a instalação eléctrica em caso de curto-circuito.", "Aumentar a intensidade do circuito eléctrico.", "Evitar curto-circuito.",]
   },
   {
-    q : "No sistema elétrico de um automóvel, qual o orgão que fornece corrente elétrica de alta tensão?",
-    a : ["A bobine.", "O alternador.", "A bateria.", "O motor de arranque.",]
+    q : "Antes de por o motor a funcionar o condutor deve:",
+    a : ["Verificar se o radiador tem água suficiente e se o cárter tem óleo ao nível.", "Encher o carburador com gasolina.", "Engrenar a primeira velocidade.",]
   },
   {
-    q : "Quando em piso molhado e sem travar o veículo entra em derrapagem, a causa pode ser:",
-    a : ["Pneus gastos.", "Ar no sistema de travagem hidráulico.", "Molas e amortecedores rijos.",]
+    q : "Num incêndio provocado por curto-circuito, a primeira coisa a fazer é:",
+    a : ["Deligar a bateria ou o motor", "Lançar espuma do extintor no local onde se deu o curto-circuito.", "Lançar areia ou terra no local onde se deu o curto-circuito.",]
   },
   {
-    q : "Uma carga muito pesada e pouco volumosa colocada muito à frente da caixa de carga:",
-    a : ["Aumenta excessivamente o peso incidente sobre as rodas diretrizes, tornando difícil o manejo da direção.", "Aumenta excessivamente o peso incidente sobre as rodas traseiras, sobrecarregando o diferencial.", "Pode provocar o arrebentamento das rodas de trás.",]
+    q : "O motor apresenta um consumo excessivo de óleo e liberta gases de escape de cor azulada. Qual poderá ser a causa?",
+    a : ["Os segmentos ou as paredes dos cilindros estão bastantes desgastados.", "O óleo utilizado é muito viscoso.", "A junta do cárter está a vedar mal.",]
   },
   {
-    q : "Nos motores diesel , o que provoca a combustão quando o gasóleo é injetado nos cilindros?",
-    a : ["A alta temperatura do ar na câmara de combustão.", "A faísca que salta das velas.", "A bobine.",]
+    q : "Nos travões pneumáticos o ar comprimido é obtido:",
+    a : ["Por meio de um compressor.", "Através do filtro de ar.", "Através do intercooler.",]
   },
   {
-    q : "O filtro de combustível tem como função:",
-    a : ["Reter as partículas de pó e sujidade existentes no combustível.", "Facilitar a circulação do combustível.", "Filtrar o ar que passa para os cilindros.", "Proteger o sistema de lubrificação do motor.",]
+    q : "O perigo de resvalamento é menos provável quando:",
+    a : ["O condutor inicia as travagens com suficiente antecedência..", "Se coloca a alavanca de velocidade em ponto morto nas descidas.", "Os pneus têm pressão superior à recomendada.",]
   },
   {
-    q : "Periodicamente o nível do óleo no cárter do motor é verificado:",
-    a : ["Por meio de uma vareta com dois traços, existente num dos flancos (lados) do motor.", "Por meio de um manómetro, existente na cabeça do motor.", "Por meio de uma vareta com dois traços, existente no depósito de expansão.", "Por meio de um termómetro, existente no radiador.",]
+    q : "No transporte de mercadoria a granel:",
+    a : ["Não pode ser excedida a altura dos taipais..", "Deve-se utilizar veículos de caixa isotérmica.", "Não se podem utilizar veículos de caixa aberta.",]
   },
   {
-    q : "O dispositivo catalisador intercalado no tubo de escape tem por finalidade:",
-    a : ["Reduzir ao mínimo as emissões poluentes que o motor expulsa.", "Garantir o arrefecimento do sistema de escape.", "Reduzir ao mínimo a poluição sonora.", "Aumentar a velocidade de saída dos gases de escape.",]
+    q : "Num motor a 4 tempos, por cada tempo de funcionamento do motor, a cambota dá:",
+    a : ["Meia volta", "Uma volta", "Dez voltas",]
   },
   {
-    q : "O condutor não deve iniciar a marcha do veículo:",
-    a : ["Se a pressão do ar dos travões for insuficiente.", "Sem accionar repetidas vezes o pedal de travão.", "Se a temperatura do motor não for suficiente.", "Sem accionar repetidas vezes o pedal do acelerador.",]
+    q : "As bielas servem para:",
+    a : ["Transmitir movimento a cambota.", "Ligar o motor", "Acelerar automaticamente",]
   } ,
   {
-    q : "Quando existe dificuldade em pôr o motor a trabalhar, pode-se insistir com o motor de arranque?",
-    a : ["A insistência excessiva causa danos na bateria.", "Sim, desde que a bateria tenha líquido suficiente.", "Sempre até que o motor comece a trabalhar.", "Sim, desde que o motor esteja quente.",]
+    q : "O curso do êmbolo é definido por:",
+    a : ["A distância percorrida pelo êmbolo entre o P.M.S. e o P.M.I.", "O diâmetro dos cilindros", "Distância percorrida pelo cilindro",]
   },
   {
-    q : "Que efeito produzem os amortecedores descarregados?",
-    a : ["As molas oscilam demasiadamente.", "Torna-se difícil movimentar a direcção.", "O veículo ganha maior estabilidade.", "A suspensão torna-se muito dura.",]
+    q : "As molas das maxilas, servem para;",
+    a : ["Afastar as maxilas do tambor.", "Travar o veículo", "Diminuir o esforço do condutor",]
   },
   {
-    q : "Para que serve o alternador?",
-    a : ["Para evitar que a bateria se descarregue.", "Para fornecer corrente à bobine.", "Para carregar o dínamo.", "Para alimentar o motor de arranque.",]
+    q : "Num motor de 6 cilindros e 4 tempos, quantas voltas dá a cambota, num ciclo completo:",
+    a : ["2", "1", "4",]
   },
   {
-    q : "O sistema hidráulico da direcção assistida permite virar:",
-    a : ["Com menos esforço do condutor.", "Com menos volta do volante.", "Com um ângulo maior.", "Com menos velocidade.",]
+    q : "Quando um veículo descreve uma curva e a luz de aviso da lubrificação do motor acende, a causa pode ser:",
+    a : ["Nivel de óleo no motor, muito baixo", "Nivel de óleo no motor, muito alto", "Avaria no filtro de ar",]
   } ,
   {
-    q : "Onde estão montados o manómetro do óleo, o indicador do nível de combustível e o termómetro?",
-    a : ["No painel de instrumentos do veículo.", "No compartimento do motor.", "Na carroçaria do veículo.", "Debaixo do pára-brisas.",]
+    q : "Clique na ordem correcta dos tempos de um ciclo de motor a 4 tempos:",
+    a : ["Admissão, compressão, combustão/explosão, escape.", "Compressão, admissão, combustão/explosão, escape.", "Compressão, combustão/explosão, escape, admissão.",]
   },
   {
-    q : "No transporte de animais vivos é muito perigoso:",
-    a : ["Variar bruscamente a velocidade e a direção.", "Alterar a velocidade sem o auxílio da caixa de velocidades.", "Transitar com velocidade moderada.", "Fazer uso do travão com frequência",]
+    q : "Accionando a ventoinha por embraiagem hidráulica sem válvula de comando, para produzir a rotação do cubo:",
+    a : ["É retirado o óleo de dentro de disco para fazer rodar o cubo.", "É introduzido dentro deste, óleo para que quando o disco rodar o cubo seja arrastado juntamente com o disco.", "É introduzido o óleo dentro do disco",]
   },
   {
-    q : "Qual o orgão do motor que transmite o movimento da cambota ao veio de excêntricos?",
-    a : ["Correia de distribuição..", "Correia da ventoinha.", "Impulsores.", "Biela.",]
+    q : "Qual é a sede de uma válvula?",
+    a : ["A zona da cabeça do motor", "A zona superior da válvula", "Todo o revestimento da válvula",]
   },
   {
-    q : "Qual a característica mais importante duma direção assistida?",
-    a : ["A direção pode ser manejada com pouco esforço do condutor.", "Só é possível manejar a direção com o veículo em andamento.", "A direção pode ser manejada com pouco esforço do condutor.", "Nunca é necessário proceder à sua lubrificação.",]
+    q : "O retardador ou travão elétrico, funciona:",
+    a : ["Gerando um campo magnético, com produção de corrente induzida que se opõe ao movimento de dois discos ligados à transmissão.", "Através da força de atrito entre duas superfícies em contacto que o condutor controla por meio de manípulo próprio.", "Funciona através de correntes parasitas",]
   } ,
   {
-    q : "Qual o inconveniente de conduzir com o pé apoiado no pedal da embraiagem?",
-    a : ["Pode causar danos no rolamento de encosto.", "Desgaste dos rolamentos da caixa de velocidades.", "Desgaste excessivo dos carretos da caixa de velocidades.", "O motor aquece excessivamente.",]
+    q : "Uma vez acionado o pedal de acelerador, actua:",
+    a : ["Na borboleta de aceleração.", "Na borboleta de ar", "No regulador das velocidades",]
   },
   {
-    q : "Nos motores de explosão, qual o tipo de corrente que percorre as velas de ignição?",
-    a : ["Alta tensão.", "Contínua intermitente.", "Baixa tensão.", "Alternada trifásica.",]
+    q : "Qual é o nome do reservatório de óleo, que fica na parte inferior do motor?",
+    a : ["Carter inferior", "Engrenagem", "Tanque",]
   },
   {
-    q : "Nos travões hidráulicos, as pastilhas são empurradas e pressionadas contra o disco:",
-    a : ["Pelos êmbolos dos cilindros.", "Pelo servo-freio.", "Pelos pratos de pressão.", "Pela pressão do ar.",]
+    q : "A manutenção periódica é necessária na distribuição por:",
+    a : ["Correia.", "Carreto", "Corrente",]
   },
   {
-    q : "Os amortecedores do sistema de suspensão servem para:",
-    a : ["Reduzir a amplitude das oscilações das molas.", "Contrariar a inclinação do veículo nas curvas.", "Reduzir o peso que incide sobre as rodas.", "Evitar o atrito dos pneus com o solo.",]
+    q : "Num motor de explosão arrefecido pelo sistema de bomba de água, a circulação faz-se da seguinte forma:",
+    a : ["A água desce do radiador, entra na bomba, sobe às camisas de água no motor e volta ao radiador.", "A água desce do radiador, sobe na bomba, entra nas camisas de água do motor e volta à bomba.", "A água desce da bomba, entra no radiador sobe às camisas de água do motor e volta à bomba.",]
   } ,
   {
-    q : "A presença de água misturada com óleo do motor de um automóvel significa:",
-    a : ["Junta de cabeça do motor com fugas.", "Bomba de água avariada.", "Radiador com fugas.", "Bomba de óleo avariada.",]
+    q : "Na situação de caldeamento ou gripagem, devido ao efeito do calor originado pelo atrito de deslizamento:",
+    a : ["Os cristais das superfícies deslizantes têm tendência para se interpenetrarem.", "Os cristais das peças próximas das superfícies deslizantes têm tendência para se interpenetrarem.", "Nada acontece",]
   },
   {
-    q : "Com a direção desalinhada, o que poderá acontecer?",
-    a : ["Desgaste anormal dos pneus.", "O veículo fica sem direção.", "Aquecimento excessivo dos pneus.",]
+    q : "Qual é a ordem correcta do ciclo de funcionamento do motor a 4 tempos:",
+    a : ["1, 3, 4, 2.", "1, 2, 3, 4.", "1, 2, 4, 3.",]
   },
   {
-    q : "A condução de um veículo autotanque pode ser difícil e perigosa quando a respetiva cisterna:",
-    a : ["Não está completamente cheia.", "Está completamente cheia.", "Não está completamente cheia",]
+    q : "As molas das maxilas, quando perde a sua elasticidade ao retirar o pé:",
+    a : ["Do pedal após uma travagem as rodas continuam presas.", "O carro, não trava", "A roda não trava",]
   },
   {
-    q : "O que pode acontecer quando os cabos ligados à bateria estão oxidados ou pouco apertados?",
-    a : ["O motor de arranque não funciona.", "A bateria descarrega-se totalmente.", "O alternador não funciona.", "Um incêndio provocado por curto circuito.",]
+    q : "Num motor de 4 tempos, em cada tempo do ciclo, a combota roda:",
+    a : ["180º", "90º", "720º",]
   }
 ];
 
