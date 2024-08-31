@@ -49,8 +49,7 @@ const qa = [
     a : ["Reduzir a velocidade e engrenar uma velocidade de força..", "Aumentar a velocidade para sair rapidamente da zona gelada.", "Reduzir a velocidade o mais tarde possível.",]
   },
   {
-    q : "Alguns veículos permitem “bloquear” o diferencial. Quando é necessário fazê-lo?
-",
+    q : "Alguns veículos permitem bloquear o diferencial. Quando é necessário fazê-lo?",
     a : ["Quando uma roda motora patine em areia, lama ou gelo.", "Quando o veículo transporta carga com elevado peso.", "Quando os travões estejam a travar mal.",]
   } ,
   {
