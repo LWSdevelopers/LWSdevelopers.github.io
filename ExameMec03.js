@@ -81,7 +81,7 @@ const qa = [
     a : ["Válvula de pressão.", "Válvula de vácuo", "Válvula de escape",]
   },
   {
-    q : "A mola de lâminas foda-se ao quadro por:",
+    q : "A mola de lâminas fecha-se ao quadro por:",
     a : ["Um brinco e uma cavilha.", "Rebites", "Encaixe",]
   } ,
   {
