@@ -86,7 +86,7 @@ const qa = [
   } ,
   {
     q : "Para que a água circule no radiador é preciso que o termóstato a deixe circular depois de:",
-    a : ["de a água atingir a temperatura de 70ºC a 80ºC.", "de a água atingir a temperatura de 100ºC", "de a água atingir a temperatura de 40ºC", "de a água atingir a temperatura de 120ºC",,]
+    a : ["de a água atingir a temperatura de 70ºC a 80ºC.", "de a água atingir a temperatura de 100ºC", "de a água atingir a temperatura de 40ºC", "de a água atingir a temperatura de 120ºC",]
   },
   {
     q : "Num motor que funciona num ciclo a quatro tempos, de quatro cilindros em linha, em cada 2 voltas completas da cambota:",
