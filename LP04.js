@@ -86,7 +86,7 @@ const qa = [
   } ,
   {
     q : "Quando se considera velocidade excessiva?",
-    a : ["Sempre que o condutor não possa fazer parar o veículo no espaço livre visível a sua frente, ou exceda os limites de velocidade fixados nos termos legais.", "B", "Apenas quando o condutor exceda os limites de velocidade fixados nos termos legais.",]
+    a : ["Sempre que o condutor não possa fazer parar o veículo no espaço livre visível a sua frente, ou exceda os limites de velocidade fixados nos termos legais.", "Quando acelera pouco", "Apenas quando o condutor exceda os limites de velocidade fixados nos termos legais.",]
   },
   {
     q : "Num acidente grave com feridos, o que fazer se não saber como ajudar?",
