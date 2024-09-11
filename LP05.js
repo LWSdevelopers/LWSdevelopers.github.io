@@ -1,7 +1,7 @@
 // (PART A) QUESTIONS & ANSWERS - THE FIRST ANSWER IS THE CORRECT ONE
 const qa = [
   {
-    q : "O braço direito esticado para a direita, e depois dobrado até á cabeça, o agente regulador de trânsito,, manda:",
+    q : "O braço direito esticado para a direita, e depois dobrado até á cabeça, o agente regulador de trânsito, manda:",
     a : ["Avançar o tráfego que venha da direita", "Parar o tráfego que da direita", "Avançar o tráfego que venha da esquerda",]
   },
   {

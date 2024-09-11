@@ -42,7 +42,7 @@ const qa = [
   },
   {
     q : "Um condutor distraído:",
-    a : ["Tem um tempo de reacção mais longo.", "Tem o mesmo tempo de reacção que qualquer condutor.", "Tem um tempo de reacção mais reduzido.",,]
+    a : ["Tem um tempo de reacção mais longo.", "Tem o mesmo tempo de reacção que qualquer condutor.", "Tem um tempo de reacção mais reduzido.",]
   },
   {
     q : "Os sistemas de segurança activa de um veículo:",

@@ -61,7 +61,7 @@ const qa = [
     a : ["Sim, porque pode provocar ferimentos graves.", "Não, se o veiculo estiver equipado com airbag.", "Não, o cinto e sempre eficaz.", "Sim, por isso o seu uso não e obrigatório.",]
   },
   {
-    q : "O que deve fazer se perceber que o seu veículo vai ser ultrapassado nesta situação?",
+    q : "O que deve fazer se perceber que o seu veículo vai ser ultrapassado?",
     a : ["Afastar-se o mais possível para a esquerda e não aumentar a velocidade, enquanto não for ultrapassado.", "Facilitar a ultrapassagem desviando-se para a direita e não aumentando a velocidade.", "Impedir que seja realizada a manobra, aumentando a velocidade.", "Não mudar a sua posição na faixa de rodagem.",]
   },
   {
