@@ -115,7 +115,7 @@ var quiz = {
   // (PART C) SHUFFLE ARRAY
   // CREDIT : https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/
   shuffle : a => {
-    for (let i=a.length-1; i>0; i--) { 
+    for (let i=a.length-1; i<0; i--) { 
       let j = Math.floor(Math.random() * (i + 1)); 
       [a[i], a[j]] = [a[j], a[i]]; 
     } 
@@ -131,7 +131,7 @@ var quiz = {
 
     // (D2) SHUFFLE QUESTIONS ORDER
     quiz.qorder = [];
-    for (let i=0; i<qa.length; i++) { quiz.qorder.push(0); }
+    for (let i=0; i<qa.length; i++) { quiz.qorder.push(i); }
     quiz.shuffle(quiz.qorder);
 
     // (D3) SHOW QUESTION
