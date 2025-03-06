@@ -527,7 +527,7 @@ function nextQuestion() {
     }
 
     createQuestion(actualQuestion);
-  }, 3050);
+  }, 4030);
 }
 
 // exibe a tela final
