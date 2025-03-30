@@ -31,11 +31,11 @@ const questions = [
     answers: [
       {
         answer: 'Ultrapassa-lo a grande velocidade',
-        correct: true,
+        correct: false,
       },
       {
         answer: 'Ter em atenção a instabilidade desse veículo.',
-        correct: false,
+        correct: true,
       },
       {
         answer: 'Utilizar sinais sonoros',
