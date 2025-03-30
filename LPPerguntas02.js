@@ -72,11 +72,11 @@ const questions = [
         correct: true,
       },
       {
-        answer: 'Que pare.',
+        answer: 'Que avance.',
         correct: false,
       },
       {
-        answer: 'Que afrouxe.',
+        answer: 'Que mude de direção.',
         correct: false,
       },
     ],
