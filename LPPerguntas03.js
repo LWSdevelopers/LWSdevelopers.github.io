@@ -14,7 +14,7 @@ const questions = [
     answers: [
       {
         answer: 'os passageiros devem entrar e sair pelo lado esquerdo do veículo.',
-        correct: false,
+        correct: true,
       },
       {
         answer: 'o condutor deve entrar e sair pelo lado esquerdo do veículo.',
@@ -22,7 +22,7 @@ const questions = [
       },
       {
         answer: 'os passageiros devem entrar e sair pelo lado direito do veículo.',
-        correct: true,
+        correct: false,
       },
     ],
   },
