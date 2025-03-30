@@ -68,7 +68,7 @@ const questions = [
     question: 'Que comunica o condutor aos outros utentes da via?',
     answers: [
       {
-        answer: 'Que pode fazer a ultrapassagem.',
+        answer: 'Que não pode fazer a ultrapassagem.',
         correct: true,
       },
       {
