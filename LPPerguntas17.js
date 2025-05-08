@@ -499,7 +499,6 @@ const questions = [
     ],
   },
 ];
-
 // substituição do quizz para a primeira pergunta
 function init() {
   // criar primeira pergunta
