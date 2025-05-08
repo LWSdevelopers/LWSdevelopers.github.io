@@ -434,7 +434,7 @@ const questions = [
         correct: false,
       },
       {
-        answer: 'Acelerar ao máximo até perde-lo de vista.,
+        answer: 'Acelerar ao máximo até perde-lo de vista.'
         correct: false,
       },
     ],
@@ -499,6 +499,7 @@ const questions = [
     ],
   },
 ];
+
 // substituição do quizz para a primeira pergunta
 function init() {
   // criar primeira pergunta
