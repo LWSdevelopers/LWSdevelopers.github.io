@@ -25,7 +25,7 @@ const questions = [
         correct: false,
       },
       {
-        answer: 'Ser fim de semana',
+        answer: 'Ser fim de semana.',
         correct: false,
       },
     ],
@@ -106,7 +106,7 @@ const questions = [
       },
       {
         answer: 'Certo, mas só em condução urbana',
-        correct: true,
+        correct: false,
       },
     ],
   },
@@ -206,7 +206,7 @@ const questions = [
         correct: false,
       },
       {
-        answer: 'Só os automóveis pesados de passageiros não podem transitar sem utilizarem o motor como auxiliar do travão',
+        answer: 'Só os automóveis pesados de passageiros não podem transitar sem utilizarem o motor como auxiliar do travão.',
         correct: false,
       },
       {
@@ -219,7 +219,7 @@ const questions = [
     question: 'A capacidade de o condutor prever e antecipar aumenta:',
     answers: [
       {
-        answer: 'Com a velocidade do veículo',
+        answer: 'Com a velocidade do veículo.',
         correct: false,
       },
       {
@@ -227,7 +227,7 @@ const questions = [
         correct: false,
       },
       {
-        answer: 'Com a experiência',
+        answer: 'Com a experiência.',
         correct: true,
       },
       {
@@ -282,7 +282,7 @@ const questions = [
         correct: true,
       },
       {
-        answer: 'Via publica destinada a transito lento, com separação física de faixas de rodagem, sem cruzamentos de nível nem acesso a propriedades marginais, com acessos condicionados e sinalizada como tal',
+        answer: 'Via publica destinada a transito lento, com separação física de faixas de rodagem, sem cruzamentos de nível nem acesso a propriedades marginais, com acessos condicionados e sinalizada como tal.',
         correct: false,
       },
       {
@@ -358,7 +358,7 @@ const questions = [
         correct: true,
       },
       {
-        answer: 'Deve ligar as luzes de estrada e as luzes de emergência para ser mais facilmente visto pelos outros condutores',
+        answer: 'Deve ligar as luzes de estrada e as luzes de emergência para ser mais facilmente visto pelos outros condutores.',
         correct: false,
       },
     ],
@@ -405,6 +405,10 @@ const questions = [
     question: 'A distância percorrida desde que o condutor identifica um perigo até que o veiculo pare completamente:',
     answers: [
       {
+        answer: 'É maior quanto maior for a atenção',
+        correct: false,
+        },
+        {
         answer: 'É maior quanto maior for a velocidade.',
         correct: true,
       },
@@ -413,7 +417,7 @@ const questions = [
         correct: false,
       },
       {
-        answer: 'Depende apenas do estado dos travões',
+        answer: 'Depende apenas do estado dos travões.',
         correct: false,
       },
     ],
@@ -434,7 +438,7 @@ const questions = [
         correct: false,
       },
       {
-        answer: 'Acelerar ao máximo até perde-lo de vista.'
+        answer: 'Acelerar ao máximo até perde-lo de vista.',
         correct: false,
       },
     ],
@@ -476,7 +480,7 @@ const questions = [
         correct: false,
       },
       {
-        answer: 'Não deve ser inferior a 30 metros.',
+        answer: 'Não deve be inferior a 30 metros.',
         correct: false,
       },
     ],
@@ -553,78 +557,39 @@ function createQuestion(i) {
 
 // verificar resposta do usuário
 function checkAnswer(btn) {
-  // seleciona todos os botões
   const buttons = answerBox.querySelectorAll('button');
-
-  // verifica se resposta correta e add classe
   buttons.forEach((button) => {
-    if (button.getAttribute('correct-answer') == 'true') {
-      button.classList.add('correct-answer');
-
-      // checa se usuário acertou a pergunta
-      if (btn === button) {
-        // incremento dos pontos
-        points++;
-      }
+    button.disabled = true; // Desativa todos os botões após uma resposta
+    if (button.getAttribute('correct-answer') === 'true') {
+      button.classList.add('correct-answer'); // Destaca a resposta correta
     } else {
-      button.classList.add('wrong-answer');
+      button.classList.add('wrong-answer'); // Destaca as respostas erradas
     }
   });
 
-  // exibir próxima pergunta
-  nextQuestion();
-}
+  if (btn.getAttribute('correct-answer') === 'true') {
+    points++; // Incrementa a pontuação se a resposta estiver correta
+  }
 
-// exibe a pŕoxima pergunta no quizz
-function nextQuestion() {
-  // timer para usuário ver as respostas
-  setTimeout(function () {
-    // verifica se ainda há perguntas
-    if (actualQuestion >= questions.length) {
-      // apresenta mensagem de sucesso
-      showSuccessMessage();
-      return;
+  // Avança para a próxima pergunta após um pequeno intervalo
+  setTimeout(() => {
+    if (actualQuestion < questions.length) {
+      createQuestion(actualQuestion);
+    } else {
+      showScore();
     }
-
-    createQuestion(actualQuestion);
-  }, 4030);
+  }, 1000);
 }
 
-// exibe a tela final
-function showSuccessMessage() {
-  hideOrShowQuizz();
+// Exibe a pontuação final
+function showScore() {
+  quizzContainer.classList.add('hide');
+  scoreContainer.classList.remove('hide');
 
-  // trocar dados tela de sucesso
-  // calcular score
-  const score = ((points / questions.length) * 100).toFixed(2);
-
-  const displayScore = document.querySelector('#display-score span');
-  displayScore.textContent = score.toString();
-
-  //alterar o número de perguntas corretas
-  const correctAnswers = document.querySelector('#correct-answers');
-  correctAnswers.textContent = points;
-
-  // alterar o total de perguntas
-  const totalQuestions = document.querySelector('#questions-qty');
-  totalQuestions.textContent = questions.length;
+  const scoreText = scoreContainer.querySelector('#score-text');
+  scoreText.textContent = `Você acertou ${points} de ${questions.length} perguntas!`;
 }
 
-// mostra ou esonde o score
-function hideOrShowQuizz() {
-  quizzContainer.classList.toggle('hide');
-  scoreContainer.classList.toggle('hide');
-}
-
-// reiniciar quizz
-const restartBtn = document.querySelector('#restart');
-restartBtn.addEventListener('click', function () {
-  //zerar jogo
-  actualQuestion = 0;
-  points = 0;
-  hideOrShowQuizz();
-  init();
-});
-
-// inicialização do quizz
+// Inicializa o quizz
 init();
+
