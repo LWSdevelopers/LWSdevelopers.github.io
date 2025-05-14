@@ -55,7 +55,7 @@ const questions = [
         correct: false,
       },
       {
-        answer: 'O sistema de som.", "A bateria, o filtro de óleo e o do ar.',
+        answer: 'O sistema de som.',
         correct: false,
       },
     ],
@@ -98,7 +98,7 @@ const questions = [
       },
       {
         answer: 'Pela ausência de regras de trânsito.',
-        correct: true,
+        correct: false,
       },
     ],
   },
@@ -148,7 +148,7 @@ const questions = [
     question: 'Quando o condutor tem uma distração no volante:',
     answers: [
       {
-        answer: 'Demora mais tempo a reagir", "demora menos tempo em obter as informações necessárias para conduzir com segurança.',
+        answer: 'Demora mais tempo a reagir',
         correct: true,
       },
       {
@@ -216,7 +216,7 @@ const questions = [
       },
       {
         answer: 'Não, e sempre proibido ao condutor utilizar aparelhos radiotelefónicos.',
-        correct: true,
+        correct: false,
       },
     ],
   },
@@ -295,7 +295,7 @@ const questions = [
         correct: true,
       },
       {
-        answer: 'Passar',
+        answer: 'Só Passar',
         correct: false,
       },
     ],
@@ -359,7 +359,7 @@ const questions = [
       },
       {
         answer: 'Parar.',
-        correct: true,
+        correct: false,
       },
     ],
   },

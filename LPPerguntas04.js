@@ -61,7 +61,7 @@ const questions = [
     ],
   },
   {
-    question: 'Utilizar o veículo para em via pública, demonstrar ou exibir manobra de arranque brusco, derrapagem ou travagem com deslizamento de pneus, constitui contravenção:',
+    question: 'Utilizar o veículo em via pública, demonstrar ou exibir manobra de arranque brusco, derrapagem ou travagem com deslizamento de pneus, constitui contravenção:',
     answers: [
       {
         answer: 'Grave',

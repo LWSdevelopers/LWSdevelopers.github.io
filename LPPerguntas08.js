@@ -128,10 +128,10 @@ const questions = [
     ],
   },
   {
-    question: 'A maioria dos acidentes de trânsito são devidos:',
+    question: 'A maioria dos acidentes de trânsito são devido:',
     answers: [
       {
-        answer: 'às pessoas", "às condições meteorológicas ou ambientais.',
+        answer: 'às pessoas',
         correct: true,
       },
       {
@@ -368,7 +368,7 @@ const questions = [
     question: 'Onde é proibido realizar uma ultrapassagem?',
     answers: [
       {
-        answer: 'Nas auto-estradas.", "Nas auto-estradas.',
+        answer: 'Nas auto-estradas.',
         correct: false,
       },
       {

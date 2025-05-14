@@ -17,7 +17,7 @@ const questions = [
         correct: true,
       },
       {
-        answer: 'Parar o tráfego que da direita", "Avançar o tráfego que venha da esquerda',
+        answer: 'Avançar o tráfego que venha da esquerda',
         correct: false,
       },
     ],

@@ -85,7 +85,7 @@ const questions = [
     question: 'Os efeitos do álcool, quando alcançam o seu nivel mais alto?',
     answers: [
       {
-        answer: 'Imediatamente depois de ter tomado o último copo.',
+        answer: '30 depois de ter tomado o último copo.',
         correct: false,
       },
       {
@@ -93,11 +93,11 @@ const questions = [
         correct: false,
       },
       {
-        answer: 'Entre 30 a 90 minutes depois do consumo de álcool.',
-        correct: true,
+        answer: 'Entre 30 a 90 minutos depois do consumo de álcool.',
+        correct: false,
       },
       {
-        answer: 'Quatro horas depois de ter tomado o último copo.',
+        answer: 'Imediatamente após o consumo',
         correct: true,
       },
     ],
@@ -401,7 +401,7 @@ const questions = [
     question: 'Como deve colocar os sinais de pré-sinalização de perigo, se o veiculo avariado fica imobilizado num local onde não é visível a 100 metros de distância?',
     answers: [
       {
-        answer: 'À frente e a retaguarda do veiculo, a uma distância não inferior a 30 metros.", "À frente e a retaguarda do veículo, a uma distância de 10 metros.',
+        answer: 'À frente e a retaguarda do veiculo, a uma distância não inferior a 30 metros.',
         correct: true,
       },
       {

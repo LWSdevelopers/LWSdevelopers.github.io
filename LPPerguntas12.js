@@ -69,7 +69,7 @@ const questions = [
     ],
   },
   {
-    question: 'Deixar de indicar com antecedência, mediante gesto regulamentar de braço ou luz indicadora de direcção do veículo, o início da marcha, a realização da manobra de parar o veículo, a mudança de direcção ou de faixa de circulação, constitui contravenção:',
+    question: 'Deixar de indicar com antecedência, mediante gesto regulamentar de braço ou luz indicadora de direcção do veículo, a realização da manobra de parar o veículo, a mudança de direcção ou de faixa de circulação, constitui contravenção:',
     answers: [
       {
         answer: 'Média',
@@ -107,7 +107,7 @@ const questions = [
     ],
   },
   {
-    question: 'O sono pode provocar um accidente durante o dia?',
+    question: 'O sono pode provocar um acidente durante o dia?',
     answers: [
       {
         answer: 'Sim, mas só se conduz sob a influência de álcool.',
@@ -242,10 +242,10 @@ const questions = [
     ],
   },
   {
-    question: 'Numa subida, com barra central contínuo, pode inverter o sentido de marcha?',
+    question: 'Numa subida, com barra central contínua, pode inverter o sentido de marcha?',
     answers: [
       {
-        answer: 'Não, já que existe uma lomba de visibilidade reduzida.',
+        answer: 'Não, já que existe um sinal de proibição e uma visibilidade reduzida.',
         correct: true,
       },
       {

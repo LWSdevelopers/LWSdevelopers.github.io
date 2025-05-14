@@ -212,7 +212,7 @@ const questions = [
     ],
   },
   {
-    question: 'Entrada/Saida numa rotinda, quem tem prioridade de passagem?',
+    question: 'Entrada/Saida numa rotunda, quem tem prioridade de passagem?',
     answers: [
       {
         answer: 'O condutor que entra na rotunda.',
@@ -236,7 +236,7 @@ const questions = [
     question: 'A condução defensiva é importante?',
     answers: [
       {
-        answer: 'Sim, evita grande transtornos, e acidentes na via pública',
+        answer: 'Sim, evita grandes transtornos, e acidentes na via pública',
         correct: true,
       },
       {

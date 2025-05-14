@@ -451,7 +451,7 @@ const questions = [
     question: 'O que indica uma curta distância existente entre os veículos que circulam á minha frente?',
     answers: [
       {
-        answer: 'Que devo moderar a velocidade.", "Que devo ultrapassar para não estar em perigo.',
+        answer: 'Que devo moderar a velocidade.',
         correct: true,
       },
       {

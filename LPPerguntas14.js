@@ -148,7 +148,7 @@ const questions = [
     question: 'O comportamento dos peões deve despertar a nossa atenção?',
     answers: [
       {
-        answer: 'Sim, sempre e em todas situações.", "Sim, só nos locais destinados á sua travessia',
+        answer: 'Sim, sempre e em todas situações.',
         correct: true,
       },
       {
