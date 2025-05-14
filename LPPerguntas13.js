@@ -68,7 +68,7 @@ const questions = [
     question: 'Os condutores não podem exceder as seguintes velocidades instantâneas (em quilómetros/hora):',
     answers: [
       {
-        answer: 'Motociclos simples, dentro das localidades 50, fora das localidades 90.", "Motociclos simples, dentro das localidades 50, fora das localidades 80.',
+        answer: 'Motociclos simples, dentro das localidades 50',
         correct: true,
       },
       {
