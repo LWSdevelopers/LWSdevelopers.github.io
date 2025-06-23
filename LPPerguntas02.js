@@ -85,7 +85,7 @@ const questions = [
     question: 'Uma das consequências de aumentar a velocidade, é que:',
     answers: [
       {
-        answer: 'Aumenta a gravidade das lesões em caso de acidente.',
+        answer: 'Chega em segurança.',
         correct: false,
       },
       {

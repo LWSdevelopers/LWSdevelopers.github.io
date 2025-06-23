@@ -310,7 +310,7 @@ const questions = [
       },
       {
         answer: 'Alinhar a direcção com as rodas.',
-        correct: true,
+        correct: false,
       },
     ],
   },

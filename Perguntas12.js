@@ -224,7 +224,7 @@ const questions = [
         correct: true,
       },
       {
-        answer: 'Pelos pratos de pressão.", "Pela pressão do ar.',
+        answer: 'Pela pressão do ar.',
         correct: false,
       },
     ],

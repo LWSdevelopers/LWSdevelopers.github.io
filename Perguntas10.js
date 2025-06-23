@@ -265,7 +265,7 @@ const questions = [
     ],
   },
   {
-    question: 'Em qual dos seguintes casos se torna mais fácil movimentar o volante da direção:',
+    question: 'Em qual dos seguintes casos se torna mais fácil movimentar o volante de direção:',
     answers: [
       {
         answer: 'Quando se roda o volante com o veículo parado.',
@@ -281,7 +281,7 @@ const questions = [
       },
       {
         answer: 'Com os pneus da frente com baixa pressão.',
-        correct: true,
+        correct: false,
       },
     ],
   },

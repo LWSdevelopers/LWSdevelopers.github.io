@@ -376,7 +376,7 @@ const questions = [
     question: 'Onde é proibido realizar uma ultrapassagem?',
     answers: [
       {
-        answer: 'Nas auto-estradas.", "Nas auto-estradas.',
+        answer: 'Nas auto-estradas',
         correct: false,
       },
       {
