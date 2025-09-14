@@ -98,7 +98,7 @@ const questions = [
       },
       {
         answer: 'Pela pressão do ar.',
-        correct: true,
+        correct: false,
       },
     ],
   },
