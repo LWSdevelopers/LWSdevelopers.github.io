@@ -1,5 +1,5 @@
 const anuncioData = {
-  imagem: "https://raw.githubusercontent.com/LWSdevelopers/LWSdevelopers.github.io/refs/heads/main/star.jpg",
+  imagem: "https://lwsdevelopers.github.io/star.jpg",
   titulo: "Gostou do aplicativo?",
   descricao: "Avalie o app na Play Store e conte sua experiência — leva menos de 10 segundos! Sua opinião ajuda muito.",
   link: "https://abre.ai/teoricomz?target=blank",
