@@ -1,7 +1,7 @@
 const anuncioData = {
-  imagem: "",
+  imagem: "/star.jpg",
   titulo: "Gostou do aplicativo?",
-  descricao: "Avalie o app na Play Store e conte sua experiência. Sua opinião ajuda muito!",
+  descricao: "Avalie o app na Play Store e conte sua experiência, leva menos de 10 segundos. Sua opinião ajuda muito!",
   link: "https://abre.ai/teoricomz?target=blank",
   textoBotao: "Avaliar agora"
 };
