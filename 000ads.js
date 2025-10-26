@@ -1,16 +1,16 @@
 const anuncioData = {
-  imagem: "",
-  titulo: "⭐Gostou do aplicativo?",
-  descricao: "Avalie o app na Play Store e conte sua experiência, leva menos de 10 segundos! Sua opinião ajuda muito.",
-  link: "https://abre.ai/teoricomz?target=blank",
-  textoBotao: "Avaliar agora"
+  imagem: "https://lwsdevelopers.github.io/000abanner.png",
+  titulo: "📚 Desbloquei o seu potencial | Livros",
+  descricao: "Os livros que estão a mudar vidas - agora em PDF",
+  link: "https://abreai.com/Livrospromo?target=blank",
+  textoBotao: "Saber mais"
 };
 
 const anuncioContainer = document.getElementById("anuncio");
 
 anuncioContainer.innerHTML = `
-  <div class="patrocinado"></div>
-  <img src="${anuncioData.imagem}" alt="" class=""/>
+  <div class="patrocinado">Patrocinado</div>
+  <img src="${anuncioData.imagem}" alt="Imagem do curso" class="imagem-anuncio"/>
   <div class="conteudo-anuncio">
     <h3>${anuncioData.titulo}</h3>
     <p>${anuncioData.descricao}</p>
