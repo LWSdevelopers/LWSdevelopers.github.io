@@ -33,13 +33,13 @@
   border-radius: 3px;
 }
 
-.conteudo-anuncio h3 {
+.conteudo-anuncio h5 {
   margin: 0 0 08px;
   color: #15192b;
 }
 
 .conteudo-anuncio p {
-  font-size: 10px;
+  font-size: 13px;
   color: #444;
   margin: 0;
 }

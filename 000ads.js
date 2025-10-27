@@ -9,10 +9,10 @@ const anuncioData = {
 const anuncioContainer = document.getElementById("anuncio");
 
 anuncioContainer.innerHTML = `
-  <div class="patrocinado">• PATROCINADO</div>
+  <div class="patrocinado">PATROCINADO</div>
   <img src="${anuncioData.imagem}" alt="Imagem do curso" class="imagem-anuncio"/>
   <div class="conteudo-anuncio">
-    <h3>${anuncioData.titulo}</h3>
+    <h5>${anuncioData.titulo}</h5>
     <p>${anuncioData.descricao}</p>
   </div>
   <button class="botao-anuncio" target="_blank" onclick="window.open('${anuncioData.link}', '_blank')">
