@@ -1,6 +1,6 @@
 const anuncioData = {
   imagem: "https://lwsdevelopers.github.io/000abanner.png",
-  titulo: "Criação de Currículos e Cartas de Apresentação — Promoção Limitada!",
+  titulo: "Currículos e Cartas de Apresentação — Promoção Limitada!",
   descricao: "O seu CV e carta de apresentação feito por especialistas.",
   link: "https://abreai.com/Novocurriculum?target=blank",
   textoBotao: "Pedir agora"
