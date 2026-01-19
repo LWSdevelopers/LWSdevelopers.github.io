@@ -1,9 +1,9 @@
 const anuncioData = {
-  imagem: "https://lwsdevelopers.github.io/000abanner.png",
-  titulo: "Currículos e Cartas de Apresentação — Promoção Limitada!",
-  descricao: "O seu CV e carta de apresentação feito por especialistas.",
-  link: "https://abreai.com/Novocurriculum?target=blank",
-  textoBotao: "Pedir agora"
+  imagem: "",
+  titulo: "Mais dados móveis (MB), acessíveis",
+  descricao: "Precisa de mais megabytes? Barato, ativação imediata e pronto.",
+  link: "https://abreai.com/AtivarMBs?target=blank",
+  textoBotao: "Ativar agora"
 };
 
 const anuncioContainer = document.getElementById("anuncio");
