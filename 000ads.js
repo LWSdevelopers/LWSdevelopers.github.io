@@ -2,7 +2,7 @@ const anuncioData = {
   titulo: "Mais dados móveis (MB), acessíveis",
   descricao: "Precisa de mais megabytes? Barato, ativação imediata e pronto.",
   link: "https://abreai.com/AtivarMBs?target=blank",
-  textoBotao: "Ativar agora"
+  textoBotao: "Adquirir pacote"
 };
 
 const anuncioContainer = document.getElementById("anuncio");
