@@ -1,4 +1,5 @@
 const anuncioData = {
+  imagem: "https://lwsdevelopers.github.io/000abanner.png",
   titulo: "Mais dados móveis (MB), acessíveis",
   descricao: "Precisa de mais megabytes? Barato, ativação imediata e pronto.",
   link: "https://abreai.com/AtivarMBs?target=blank",
