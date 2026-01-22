@@ -2,7 +2,7 @@ const anuncioData = {
   imagem: "https://lwsdevelopers.github.io/000abanner.png",
   titulo: "Pacotes de internet acessíveis (MB)",
   descricao: "🤩 Precisa de mais megabytes? Barato, ativação imediata e pronto.",
-  link: "https://abreai.com/AtivarMBs?target=blank",
+  link: "https://abreai.com/MB_internet?target=blank",
   textoBotao: "Adquirir pacote"
 };
 
