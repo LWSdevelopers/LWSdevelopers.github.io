@@ -1,9 +1,9 @@
 const anuncioData = {
   imagem: "https://lwsdevelopers.github.io/000abanner.png",
-  titulo: "Pacotes de internet acessíveis (MB)",
-  descricao: "🤩 Precisa de mais megabytes? Barato, ativação imediata e pronto.",
-  link: "https://abreai.com/MB_internet?target=blank",
-  textoBotao: "Adquirir pacote"
+  titulo: "🤩 Gostou do aplicativo?",
+  descricao: "Avalie o app no Play Store e conte a sua experiência, leva menos de 10 segundos!",
+  link: "https://abre.ai/feedbackapp?target=blank",
+  textoBotao: "Avaliar"
 };
 
 const anuncioContainer = document.getElementById("anuncio");
