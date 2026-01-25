@@ -35,7 +35,7 @@
 
 .conteudo-anuncio h4 {
   margin: 0 0 08px;
-  color: #1d2b64;
+  color: #2596be;
 }
 
 .conteudo-anuncio p {
@@ -46,7 +46,7 @@
 
 .botao-anuncio {
   align-self: flex-end;
-  background-color: #1d2b64;
+  background-color: #2596be;
   color: white;
   padding: 10px 18px;
   border: none;
@@ -58,5 +58,5 @@
 }
 
 .botao-anuncio:hover {
-  background-color: #1d2b64;
+  background-color: #2596be;
 }
