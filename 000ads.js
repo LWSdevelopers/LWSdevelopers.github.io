@@ -1,7 +1,7 @@
 const anuncioData = {
   imagem: "https://lwsdevelopers.github.io/000abanner.png",
   titulo: "🤩 Megabytes-MB quase de borla.",
-  descricao: "Mais internet para navegar, conversar e ver vídeos pagando quase nada. Aproveita já!",
+  descricao: "Mais internet para navegar, estudar, conversar e ver vídeos. Aproveita já!",
   link: "https://abre.ai/mb-freeee?target=blank",
   textoBotao: "Ativar agora"
 };
