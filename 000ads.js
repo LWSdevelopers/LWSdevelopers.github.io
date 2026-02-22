@@ -1,7 +1,7 @@
 const anuncioData = {
   imagem: "https://lwsdevelopers.github.io/000abanner.png",
   titulo: "🤩 Gostou do aplicativo?",
-  descricao: "Avalie o app no play store, leva menos de 10 segundos e a conte sua experiência! ",
+  descricao: "Avalie o app no play store, leva menos de 10 segundos e conte sua experiência! ",
   link: "https://abre.ai/teoricomz-app?target=blank",
   textoBotao: "Avaliar"
 };
