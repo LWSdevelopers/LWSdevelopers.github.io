@@ -1,15 +1,15 @@
 const anuncioData = {
   imagem: "https://lwsdevelopers.github.io/000abanner.png",
-  titulo: "🤩 Megabytes MB - quase de borla!",
-  descricao: "Mais internet para navegar, estudar e ver vídeos quase de borla. Aproveita já!",
-  link: "https://abre.ai/ativarmbs?target=blank",
-  textoBotao: "Ativar agora"
+  titulo: "🤩 Gostou do aplicativo?",
+  descricao: "Avalie o app no Play Store e conte sua experiência! Levs menos de 10 segundos!",
+  link: "https://abre.ai/rate-theoricmz?target=blank",
+  textoBotao: "Avaliar"
 };
 
 const anuncioContainer = document.getElementById("anuncio");
 
 anuncioContainer.innerHTML = `
-  <div class="patrocinado">Patrocinado • Anúncio</div>
+  <div class="patrocinado"> • </div>
   <div class="conteudo-anuncio">
     <h4>${anuncioData.titulo}</h4>
     <p>${anuncioData.descricao}</p>
