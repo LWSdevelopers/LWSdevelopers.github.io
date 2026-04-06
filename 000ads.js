@@ -1,8 +1,7 @@
 const anuncioData = {
-  imagem: "",
   titulo: " 🚦Convide seus amigos",
   descricao: "Os melhores alunos não estudam sozinhos, convide seus colegas!",
-  link: "https://rebrand.ly/exames-teoricos",
+  link: "https://rebrand.ly/exames-teoricos?target=blank",
   textoBotao: "Convidar"
 };
 
@@ -21,7 +20,7 @@ async function compartilharApp() {
     }
   } else {
     // Fallback para navegadores que não suportam partilha nativa
-    const whatsappUrl = `https://api.whatsapp.com/send?text=Olá! Estuda para o seu exame de condução com este app: ${anuncioData.link}`;
+    const whatsappUrl = `https://api.whatsapp.com/send?text=🚦 Olá! Estuda para o seu exame de condução com este app é muito fácil e gratuito: ${anuncioData.link}`;
     window.open(whatsappUrl, '_blank');
   }
 }
@@ -30,8 +29,8 @@ const anuncioContainer = document.getElementById("anuncio");
 
 if (anuncioContainer) {
   anuncioContainer.innerHTML = `
-    <div class="patrocinado">Convite •</div>
-    <img src="${anuncioData.imagem}" alt="Convite para estudo" class="imagem-anuncio"/>
+    <div class="patrocinado">😍 •</div>
+    <img src="${anuncioData.imagem}" alt="" class="imagem-anuncio"/>
     <div class="conteudo-anuncio">
       <h3>${anuncioData.titulo}</h3>
       <p>${anuncioData.descricao}</p>
