@@ -1,6 +1,6 @@
 const anuncioData = {
   titulo: " 🚦Convide seus amigos",
-  descricao: "Os melhores alunos não estudam sozinhos, convide seus colegas!",
+  descricao: "Convide seus amigos/grupo, ajude-nos a melhorar o app e torne sua preparação ainda mais completa.",
   link: "https://rebrand.ly/exames-teoricos?target=blank",
   textoBotao: "Convidar"
 };
@@ -29,7 +29,7 @@ const anuncioContainer = document.getElementById("anuncio");
 
 if (anuncioContainer) {
   anuncioContainer.innerHTML = `
-    <div class="patrocinado">😍 •</div>
+    <div class="patrocinado">🔥</div>
     <img src="${anuncioData.imagem}" alt="" class="imagem-anuncio"/>
     <div class="conteudo-anuncio">
       <h3>${anuncioData.titulo}</h3>
