@@ -1,20 +1,43 @@
 const anuncioData = {
-  imagem: "https://lwsdevelopers.github.io/000abanner.png",
-  titulo: "🤩 Gostou do aplicativo?",
-  descricao: "Avalie o app na Play Store e conte sua experiência, leva menos de 10 segundos.",
-  link: "https://abre.ai/rate-theoricmz?target=blank",
-  textoBotao: "Avaliar"
+  imagem: "",
+  titulo: " 🚦Convide seus amigos",
+  descricao: "Os melhores alunos não estudam sozinhos, convide seus colegas!",
+  link: "https://rebrand.ly/exames-teoricos",
+  textoBotao: "Convidar"
 };
+
+// Função para acionar a partilha nativa do sistema
+async function compartilharApp() {
+  if (navigator.share) {
+    try {
+      await navigator.share({
+        title: anuncioData.titulo,
+        text: `Olá! Estou a usar este app para estudar para o exame de condução. É muito fácil, e é gratuito! Vê aqui:`,
+        url: anuncioData.link,
+      });
+      console.log("Conteúdo partilhado com sucesso!");
+    } catch (err) {
+      console.log("Erro ao tentar partilhar:", err);
+    }
+  } else {
+    // Fallback para navegadores que não suportam partilha nativa
+    const whatsappUrl = `https://api.whatsapp.com/send?text=Olá! Estuda para o seu exame de condução com este app: ${anuncioData.link}`;
+    window.open(whatsappUrl, '_blank');
+  }
+}
 
 const anuncioContainer = document.getElementById("anuncio");
 
-anuncioContainer.innerHTML = `
-  <div class="patrocinado"> • </div>
-  <div class="conteudo-anuncio">
-    <h4>${anuncioData.titulo}</h4>
-    <p>${anuncioData.descricao}</p>
-  </div>
-  <button class="botao-anuncio" target="_blank" onclick="window.open('${anuncioData.link}', '_blank')">
-    ${anuncioData.textoBotao}
-  </button>
-`;
+if (anuncioContainer) {
+  anuncioContainer.innerHTML = `
+    <div class="patrocinado">Convite •</div>
+    <img src="${anuncioData.imagem}" alt="Convite para estudo" class="imagem-anuncio"/>
+    <div class="conteudo-anuncio">
+      <h3>${anuncioData.titulo}</h3>
+      <p>${anuncioData.descricao}</p>
+    </div>
+    <button class="botao-anuncio" onclick="compartilharApp()">
+      ${anuncioData.textoBotao}
+    </button>
+  `;
+}
