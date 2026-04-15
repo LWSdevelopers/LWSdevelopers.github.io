@@ -1,42 +1,20 @@
 const anuncioData = {
-  titulo: " 🚦Convide seus amigos",
-  descricao: "Convide seus amigos/grupo, ajude-nos a melhorar o app e torne sua preparação ainda mais completa.",
-  link: "https://rebrand.ly/exames-teoricos?target=blank",
-  textoBotao: "Convidar"
+  imagem: "https://lwsdevelopers.github.io/000abanner.png",
+  titulo: "🤩 Gostou do aplicativo?",
+  descricao: "Avalie o app na Play Store e conte sua experiência, leva menos de 10 segundos.",
+  link: "https://abre.ai/rate-theoricmz?target=blank",
+  textoBotao: "Avaliar"
 };
-
-// Função para acionar a partilha nativa do sistema
-async function compartilharApp() {
-  if (navigator.share) {
-    try {
-      await navigator.share({
-        title: anuncioData.titulo,
-        text: `Olá! Estou a usar este app para estudar para o exame de condução. É muito fácil, e é gratuito! Vê aqui:`,
-        url: anuncioData.link,
-      });
-      console.log("Conteúdo partilhado com sucesso!");
-    } catch (err) {
-      console.log("Erro ao tentar partilhar:", err);
-    }
-  } else {
-    // Fallback para navegadores que não suportam partilha nativa
-    const whatsappUrl = `https://api.whatsapp.com/send?text=🚦 Olá! Estuda para o seu exame de condução com este app é muito fácil e gratuito: ${anuncioData.link}`;
-    window.open(whatsappUrl, '_blank');
-  }
-}
 
 const anuncioContainer = document.getElementById("anuncio");
 
-if (anuncioContainer) {
-  anuncioContainer.innerHTML = `
-    <div class="patrocinado">🔥</div>
-    <img src="${anuncioData.imagem}" alt="" class="imagem-anuncio"/>
-    <div class="conteudo-anuncio">
-      <h3>${anuncioData.titulo}</h3>
-      <p>${anuncioData.descricao}</p>
-    </div>
-    <button class="botao-anuncio" onclick="compartilharApp()">
-      ${anuncioData.textoBotao}
-    </button>
-  `;
-}
+anuncioContainer.innerHTML = `
+  <div class="patrocinado"> • </div>
+  <div class="conteudo-anuncio">
+    <h4>${anuncioData.titulo}</h4>
+    <p>${anuncioData.descricao}</p>
+  </div>
+  <button class="botao-anuncio" target="_blank" onclick="window.open('${anuncioData.link}', '_blank')">
+    ${anuncioData.textoBotao}
+  </button>
+`;
