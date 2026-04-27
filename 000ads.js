@@ -10,7 +10,6 @@ const anuncioContainer = document.getElementById("anuncio");
 
 anuncioContainer.innerHTML = `
   <div class="patrocinado">Patrocinado • </div>
-  <img src="${anuncioData.imagem}" alt="Imagem do curso" class="imagem-anuncio"/>
   <div class="conteudo-anuncio">
     <h3>${anuncioData.titulo}</h3>
     <p>${anuncioData.descricao}</p>
