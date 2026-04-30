@@ -1,5 +1,5 @@
 const anuncioData = {
-  titulo: "Gostou do aplicativo? 😍",
+  titulo: "😍 Gostou do aplicativo?",
   descricao: "Avalie o app na play store e conte a sua experiência, leva menos de 10 segundos",
   link: "https://abre.ai/rateapp?target=blank",
   textoBotao: "Avaliar"
