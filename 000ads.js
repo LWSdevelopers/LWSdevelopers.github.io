@@ -1,15 +1,14 @@
 const anuncioData = {
-  imagem: "",
-  titulo: "Internet e Megabytes (MB) Quase de borla 😍",
-  descricao: "Queres navegar, estudar e até assistir videos?",
-  link: "https://rebrand.ly/whatsapp-megass?target=blank",
-  textoBotao: "Ativar agora"
+  titulo: "Gostou do aplicativo? 😍",
+  descricao: "Avalie o app na play store e conte a sua experiência, leva menos de 10 segundos",
+  link: "https://abre.ai/rateapp?target=blank",
+  textoBotao: "Avaliar"
 };
 
 const anuncioContainer = document.getElementById("anuncio");
 
 anuncioContainer.innerHTML = `
-  <div class="patrocinado">Patrocinado • </div>
+  <div class="patrocinado"> • </div>
   <div class="conteudo-anuncio">
     <h3>${anuncioData.titulo}</h3>
     <p>${anuncioData.descricao}</p>
