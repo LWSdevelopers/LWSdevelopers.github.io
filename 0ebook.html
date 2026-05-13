@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual do Condutor | Edição Especial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #0f172a;    /* Midnight Blue (Autoridade) */
+            --accent: #e2cd8a;     /* Amber Gold (Conversão e Valor) */
+            --accent-hover: #d97706;
+            --bg-light: #f8fafc;   /* Fundo suave para não cansar a vista */
+            --text-dark: #1e293b;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: var(--white);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        
+/* --- Cabeçalho de Oferta (FIXO) --- */
+        .top-bar {
+            background: white;
+            color: var(--primary);
+            text-align: center;
+            padding: 6.5px;
+            font-weight: 900;
+            font-size: 0.7rem; /* Aumentei levemente para legibilidade */
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            
+            /* Ajustes para fixar */
+            position: sticky;
+            top: 0;
+            z-index: 000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Sombra leve para destacar ao rolar */
+        }
+
+        /* --- Hero Section --- */
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, #1e293b 100%);
+            color: var(--white);
+            padding: 100px 5% 150px;
+            text-align: center;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+        }
+
+        .hero-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .badge {
+            display: inline-block;
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            padding: 5px 15px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 0.8rem;
+        }
+
+        h1 {
+            font-size: clamp(2.2rem, 5vw, 3.8rem);
+            line-height: 1.2;
+            margin-bottom: 25px;
+            font-weight: 800;
+        }
+
+        h1 span {
+            color: var(--accent);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            margin-bottom: 01px;
+        }
+
+        /* --- Botão CTA --- */
+        .cta-btn {
+            background: var(--accent);
+            color: var(--primary);
+            padding: 20px 45px;
+            border-radius: 22px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.2rem;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(245, 158, 11, 0.3);
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-5px);
+            background: #40b330;
+            box-shadow: 0 15px 30px rgba(245, 158, 11, 0.4);
+        }
+
+        /* --- Seção do Livro (Destaque) --- */
+        .book-showcase {
+            margin-top: -150px;
+            padding-bottom: 80px;
+            text-align: center;
+        }
+
+        .main-card {
+            background: var(--white);
+            max-width: 1000px;
+            margin: 0 auto;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            box-shadow: 0 40px 100px rgba(0,0,0,0.1);
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .book-img-box {
+            flex: 1;
+            background: #f1f5f9;
+            padding: 60px;
+            min-width: 350px;
+        }
+
+        .book-img-box img {
+            width: 100%;
+            max-width: 300px;
+            filter: drop-shadow(15px 25px 30px rgba(0,0,0,0.2));
+            transition: 0.5s;
+        }
+
+        .book-img-box img:hover { transform: scale(1.03) rotate(-2deg); }
+
+        .book-details {
+            flex: 1.2;
+            padding: 60px;
+            text-align: left;
+            min-width: 350px;
+        }
+
+        /* --- Preços --- */
+        .price-box {
+            margin: 30px 0;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+        .old-pricee {
+            text-decoration: line;
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+
+        .new-price {
+            color: var(--primary);
+            font-size: 3.5rem;
+            font-weight: 800;
+            display: block;
+        }
+
+        /* --- Garantia --- */
+        .guarantee {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 30px;
+            padding: 20px;
+            background: #e3f2e1;
+            border-radius: 12px;
+            border-left: 5px solid green;
+        }
+
+        /* --- Footer --- */
+        footer {
+            background: var(--primary);
+            color: var(--white);
+            padding: 50px 5%;
+            text-align: center;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .book-details { text-align: center; padding: 40px 20px; }
+            .new-price { font-size: 2.5rem; }
+        }
+        /* 1. Definindo o movimento de flutuação */
+@keyframes flutuar3D {
+    0% { transform: translateY(0px) rotateY(5deg); }
+    50% { transform: translateY(-15px) rotateY(-9deg); }
+    100% { transform: translateY(0px) rotateY(5deg); }
+}
+
+/* 2. Aplicando à imagem do livro */
+.book-img-box img {
+    width: 100%;
+    max-width: 300px;
+    filter: drop-shadow(15px 25px 30px rgba(90,90,90,90.2));
+    
+    /* Ativa a animação: nome | duração | suave | infinita */
+    animation: flutuar3D 7s ease-in-out infinite;
+    transition: transform 0.4s ease;
+}
+
+/* 3. Efeito ao passar o mouse (para a animação e foca) */
+.book-img-box img:hover {
+    animation-play-state: play;
+    transform: scale(1.05);
+}
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">🎁 Oferta Especial: 50% de Desconto apenas hoje!</div>
+
+    <header>
+        <div class="hero-container">
+            <span class="badge">A Estratégia Que Vai Mudar Seus Resultados</span>
+            <h1>O Guia Definitivo do Condutor Inteligente: <span>Poupe Dinheiro</span> e Evite Problemas</h1>
+            <p class="subtitle">O seu guia de  cuidados de carro, manutenção e condução que vai te poupar dinheiro em oficinas e <a style="color: white;">desbloquear</a> a sua mente.</p>
+            
+        </div>
+    </header>
+
+    <section class="container book-showcase" id="comprar">
+        <div class="main-card">
+            <div class="book-img-box">
+                <!-- Mockup do Livro -->
+                <img src="livro.png" alt="Capa do Livro">
+            </div>
+            
+            <div class="book-details">
+                <h2 style="font-size: 2rem; margin-bottom: 15px;">Adquirir Agora</h2>
+                <p style="color: #64748b; margin-bottom: 20px;">Um guia prático, passo a passo, projetado para condutores que não aceitam menos que a excelência técnica.</p>
+                
+                <div class="price-box">
+                    <span class="old-price" style="color: red;">Antes 155 MT</span>
+                    
+                    <span class="new-price"><span class="old-pricee">Agora</span> 75 MT</span>
+                </div>
+
+                <div style="margin-bottom: 30px;">
+                    <p style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: #10b981;"></i> <strong>Acesso imediato: </strong>no WhatsApp</p>
+                    <p style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: #10b981;"></i> <strong>Bônus:</strong> Guia de Diagnóstico Rápido</p>
+                    <p><i class="fas fa-check-circle" style="color: #10b981;"></i> <strong>Leitura fácil:</strong> No telemóvel, tablet e PC</p>
+                </div>
+
+                <a href="#" class="cta-btn" style="width: 100%; text-align: center;">COMPRAR AGORA</a>
+
+                <div class="guarantee">
+                    <i class="fas fa-shield-alt" style="font-size: 1.5rem; color: green;"></i>
+                    <p style="font-size: 0.85rem; color: green;"><strong>GARANTIA DE SATISFAÇÃO:</strong> Receba o conteúdo original e atualizado ou seu dinheiro de volta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding: 20px 5%; text-align: center; background: var(--bg-light);">
+        <h2 style="margin-bottom: 50px;">O que você encontrará no manual</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+            <div style="background: white; padding: 30px; border-radius: 20px; width: 300px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                <i class="fas fa-car-crash fa-2x" style="color: var(--accent); margin-bottom: 15px;"></i>
+                <h4>Evite Problemas Graves</h4>
+                <p style="font-size: 0.9rem; color: #64748b;">Técnicas de previsão de risco e conheça o veículo.</p>
+            </div>
+            <div style="background: white; padding: 30px; border-radius: 20px; width: 300px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                <i class="fas fa-tools fa-2x" style="color: var(--accent); margin-bottom: 15px;"></i>
+                <h4>Mecânica Básica</h4>
+                <p style="font-size: 0.9rem; color: #64748b;">Aprenda a identificar problemas e não seja engando na manutenção.</p>
+            </div>
+            <div style="background: white; padding: 30px; border-radius: 20px; width: 300px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                <i class="fas fa-money-bill-wave fa-2x" style="color: var(--accent); margin-bottom: 15px;"></i>
+                <h4>Poupe Dinheiro</h4>
+                <p style="font-size: 0.9rem; color: #64748b;">Truques saudáveis para não gastar tanto nas oficinas.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p><strong>O Guia do Condutor Inteligente 2026</strong></p>
+        <p style="opacity: 0.6; font-size: 0.8rem; margin-top: 10px;">Transformando condutores (motoristas) em especialistas </strong>e <strong style="color: yellow;">Adquira o seu Guia Agora!</strong><br> Maputo, Moçambique.</p>
+    </footer>
+
+</body>
+</html>
