@@ -1,5 +1,5 @@
 const anuncioData = {
-  imagem: "000img.jpg",
+  imagem: "https://lwsdevelopers.github.io/000img.jpg",
   titulo: "",
   descricao: "🚦 O método profissional para cuidar, poupar, criar soluções e evitar grandes prejuízos.",
   link: "https://abre.ai/picl?target=blank",
