@@ -1,7 +1,7 @@
 const anuncioData = {
   imagem: "",
   titulo: "😍 Gostou do aplicativo? ",
-  descricao: "Avalie o app no Play Store, e conte a sua experiência.",
+  descricao: "Avalie o app no Play Store, deixe a sua opinião ou conte a sua experiência.",
   link: "https://abre.ai/avaliar-agoraa?target=blank",
   textoBotao: "Avaliar"
 };
