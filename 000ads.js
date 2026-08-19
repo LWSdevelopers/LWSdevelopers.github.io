@@ -1,9 +1,9 @@
 const anuncioData = {
   imagem: "https://raw.githubusercontent.com/LWSdevelopers/LWSdevelopers.github.io/refs/heads/main/000img.jpg",
   titulo: "",
-  descricao: "🚦 O método profissional para cuidar, poupar, criar soluções e evitar grandes prejuízos.",
+  descricao: "🚦 Descubra os erros que podem fazer você gastar milhares de meticais no carro.",
   link: "https://abre.ai/picl?target=blank",
-  textoBotao: "Descobrir Agora"
+  textoBotao: "Ver Oferta"
 };
 
 const anuncioContainer = document.getElementById("anuncio");
