@@ -1,304 +1,348 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-MZ">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manual do Condutor | Edição Especial</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <style>
-        :root {
-            --primary: #0f172a;    /* Midnight Blue (Autoridade) */
-            --accent: #e2cd8a;     /* Amber Gold (Conversão e Valor) */
-            --accent-hover: #d97706;
-            --bg-light: #f8fafc;   /* Fundo suave para não cansar a vista */
-            --text-dark: #1e293b;
-            --white: #ffffff;
-        }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#08120f">
+  <meta name="description" content="O que todo motorista deveria saber. Aprenda a cuidar melhor do seu carro, evitar problemas e poupar dinheiro.">
+  <title>O Que Todo Motorista Deveria Saber — Manual do Condutor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;790&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        body {
-            background-color: var(--white);
-            color: var(--text-dark);
-            line-height: 1.6;
-        }
-        
-/* --- Cabeçalho de Oferta (FIXO) --- */
-        .top-bar {
-            background: white;
-            color: var(--primary);
-            text-align: center;
-            padding: 6.5px;
-            font-weight: 900;
-            font-size: 0.7rem; /* Aumentei levemente para legibilidade */
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            
-            /* Ajustes para fixar */
-            position: sticky;
-            top: 0;
-            z-index: 000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Sombra leve para destacar ao rolar */
-        }
-
-        /* --- Hero Section --- */
-        header {
-            background: linear-gradient(135deg, var(--primary) 0%, #1e293b 100%);
-            color: var(--white);
-            padding: 100px 5% 150px;
-            text-align: center;
-            clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
-        }
-
-        .hero-container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .badge {
-            display: inline-block;
-            border: 1px solid var(--accent);
-            color: var(--accent);
-            padding: 5px 15px;
-            border-radius: 50px;
-            margin-bottom: 20px;
-            font-weight: 600;
-            font-size: 0.8rem;
-        }
-
-        h1 {
-            font-size: clamp(2.2rem, 5vw, 3.8rem);
-            line-height: 1.2;
-            margin-bottom: 25px;
-            font-weight: 800;
-        }
-
-        h1 span {
-            color: var(--accent);
-        }
-
-        .subtitle {
-            font-size: 1.2rem;
-            color: #94a3b8;
-            margin-bottom: 01px;
-        }
-
-        /* --- Botão CTA --- */
-        .cta-btn {
-            background: var(--accent);
-            color: var(--primary);
-            padding: 20px 45px;
-            border-radius: 22px;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 1.2rem;
-            display: inline-block;
-            transition: all 0.3s ease;
-            box-shadow: 0 10px 25px rgba(245, 158, 11, 0.3);
-            border: none;
-            cursor: pointer;
-        }
-
-        .cta-btn:hover {
-            transform: translateY(-5px);
-            background: #40b330;
-            box-shadow: 0 15px 30px rgba(245, 158, 11, 0.4);
-        }
-
-        /* --- Seção do Livro (Destaque) --- */
-        .book-showcase {
-            margin-top: -150px;
-            padding-bottom: 80px;
-            text-align: center;
-        }
-
-        .main-card {
-            background: var(--white);
-            max-width: 1000px;
-            margin: 0 auto;
-            border-radius: 30px;
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            box-shadow: 0 40px 100px rgba(0,0,0,0.1);
-            overflow: hidden;
-            border: 1px solid rgba(0,0,0,0.05);
-        }
-
-        .book-img-box {
-            flex: 1;
-            background: #f1f5f9;
-            padding: 60px;
-            min-width: 350px;
-        }
-
-        .book-img-box img {
-            width: 100%;
-            max-width: 300px;
-            filter: drop-shadow(15px 25px 30px rgba(0,0,0,0.2));
-            transition: 0.5s;
-        }
-
-        .book-img-box img:hover { transform: scale(1.03) rotate(-2deg); }
-
-        .book-details {
-            flex: 1.2;
-            padding: 60px;
-            text-align: left;
-            min-width: 350px;
-        }
-
-        /* --- Preços --- */
-        .price-box {
-            margin: 30px 0;
-        }
-
-        .old-price {
-            text-decoration: line-through;
-            color: #94a3b8;
-            font-size: 1.1rem;
-        }
-        .old-pricee {
-            text-decoration: line;
-            color: #94a3b8;
-            font-size: 1.1rem;
-        }
-
-        .new-price {
-            color: var(--primary);
-            font-size: 3.5rem;
-            font-weight: 800;
-            display: block;
-        }
-
-        /* --- Garantia --- */
-        .guarantee {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-top: 30px;
-            padding: 20px;
-            background: #e3f2e1;
-            border-radius: 12px;
-            border-left: 5px solid green;
-        }
-
-        /* --- Footer --- */
-        footer {
-            background: var(--primary);
-            color: var(--white);
-            padding: 50px 5%;
-            text-align: center;
-        }
-
-        /* Responsividade */
-        @media (max-width: 768px) {
-            .book-details { text-align: center; padding: 40px 20px; }
-            .new-price { font-size: 2.5rem; }
-        }
-        /* 1. Definindo o movimento de flutuação */
-@keyframes flutuar3D {
-    0% { transform: translateY(0px) rotateY(5deg); }
-    50% { transform: translateY(-15px) rotateY(-9deg); }
-    100% { transform: translateY(0px) rotateY(5deg); }
+<style>
+:root{
+  --bg:#07110d;
+  --bg2:#0d1e17;
+  --surface:#ffffff;
+  --cream:#f5f3ed;
+  --gold:#d6a84a;
+  --gold2:#f0cc78;
+  --gold-soft:#fff3d1;
+  --text:#17201b;
+  --muted:#68736d;
+  --white:#f8faf8;
+  --line:rgba(23,32,27,.11);
+  --line-dark:rgba(255,255,255,.11);
+  --radius:18px;
+  --display:"Space Grotesk",sans-serif;
+  --body:"DM Sans",sans-serif;
 }
-
-/* 2. Aplicando à imagem do livro */
-.book-img-box img {
-    width: 100%;
-    max-width: 300px;
-    filter: drop-shadow(15px 25px 30px rgba(90,90,90,90.2));
-    
-    /* Ativa a animação: nome | duração | suave | infinita */
-    animation: flutuar3D 7s ease-in-out infinite;
-    transition: transform 0.4s ease;
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--cream);color:var(--text);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+.container{width:min(1140px,calc(100% - 40px));margin:auto}
+h1,h2,h3{font-family:var(--display);letter-spacing:-.035em;line-height:1.02}
+.topbar{
+  background:#050a08;color:#dce4de;text-align:center;padding:10px 16px;
+  font-size:12px;font-weight:700;letter-spacing:.02em
 }
-
-/* 3. Efeito ao passar o mouse (para a animação e foca) */
-.book-img-box img:hover {
-    animation-play-state: play;
-    transform: scale(1.05);
+.topbar span{color:var(--gold2)}
+.nav{
+  position:absolute;top:0;left:0;right:0;z-index:10;padding:22px 0;
 }
-    </style>
+.nav-inner{display:flex;justify-content:space-between;align-items:center}
+.logo{font-family:var(--display);font-weight:700;color:#fff;font-size:17px}
+.logo b{color:var(--gold2)}
+.nav-pill{color:#cbd5cf;border:1px solid var(--line-dark);padding:9px 14px;border-radius:999px;font-size:12px}
+.hero{
+  position:relative;overflow:hidden;color:#fff;
+  background:
+    radial-gradient(700px 500px at 82% 42%,rgba(214,168,74,.19),transparent 62%),
+    radial-gradient(500px 500px at 12% 0%,rgba(35,105,72,.23),transparent 60%),
+    linear-gradient(135deg,#06100c,#0c2419 65%,#07130e);
+}
+.hero:before{
+  content:"";position:absolute;width:520px;height:520px;border:1px solid rgba(240,204,120,.08);
+  border-radius:50%;right:-230px;bottom:-250px
+}
+.hero-inner{
+  min-height:770px;padding:132px 0 82px;display:grid;
+  grid-template-columns:1.04fr .96fr;align-items:center;gap:70px
+}
+.kicker{display:flex;align-items:center;gap:9px;color:var(--gold2);font-size:12px;font-weight:790;text-transform:uppercase;letter-spacing:.14em;margin-bottom:18px}
+.kicker i{width:34px;height:1px;background:var(--gold2)}
+h1{font-size:clamp(50px,6.4vw,82px);max-width:690px}
+h1 .gold{color:var(--gold2)}
+.hero-copy .intro{font-size:18px;color:#cbd6cf;max-width:590px;margin-top:23px}
+.hero-points{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0 29px}
+.hero-points span{
+  font-size:12px;font-weight:700;color:#e4ebe6;padding:9px 12px;
+  background:rgba(255,255,255,.055);border:1px solid var(--line-dark);border-radius:999px
+}
+.hero-actions{display:flex;align-items:center;gap:17px;flex-wrap:wrap}
+.pricebox{display:flex;align-items:center;gap:10px}
+.price-old{font-size:13px;color:#87958c;text-decoration:line-through}
+.price{font-family:var(--display);font-size:42px;font-weight:790;color:var(--gold2);letter-spacing:-.04em}
+.price small{font-family:var(--body);font-size:11px;color:#aebbb3;letter-spacing:0}
+.cta{
+  display:inline-flex;align-items:center;justify-content:center;gap:12px;
+  background:linear-gradient(135deg,#f4d484,#c79434);color:#121a15;
+  padding:16px 22px;border-radius:12px;font-size:14px;font-weight:790;
+  box-shadow:0 15px 34px rgba(0,0,0,.25);transition:.2s
+}
+.cta:hover{transform:translateY(-2px);box-shadow:0 20px 38px rgba(0,0,0,.32)}
+.trust{display:flex;gap:18px;flex-wrap:wrap;margin-top:17px;color:#95a39a;font-size:11px}
+.book-area{position:relative;display:flex;justify-content:center;align-items:center}
+.book-glow{
+  position:absolute;width:390px;height:390px;border-radius:50%;
+  background:radial-gradient(circle,rgba(214,168,74,.19),transparent 67%)
+}
+.book{position:relative;width:min(390px,88%);transform:rotate(3deg);filter:drop-shadow(0 35px 30px rgba(0,0,0,.45))}
+.book img{width:100%;border-radius:7px}
+.discount{
+  position:absolute;top:-15px;right:-25px;width:92px;height:92px;border-radius:50%;
+  display:grid;place-items:center;text-align:center;background:linear-gradient(145deg,#f4d98f,#b47c22);
+  color:#131a15;font-family:var(--display);font-size:17px;font-weight:790;line-height:.9;
+  box-shadow:0 14px 30px rgba(0,0,0,.35);transform:rotate(8deg)
+}
+.book-note{
+  position:absolute;bottom:18px;left:-24px;background:rgba(7,17,13,.88);
+  border:1px solid rgba(240,204,120,.25);padding:12px 14px;border-radius:12px;
+  backdrop-filter:blur(10px);font-size:11px;color:#dbe4de
+}
+.book-note b{display:block;color:var(--gold2);font-size:12px;margin-bottom:2px}
+
+.problem-strip{background:#fff;border-bottom:1px solid var(--line)}
+.problem-inner{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:30px;padding:25px 0}
+.problem-inner strong{font-family:var(--display);font-size:19px}
+.problem-inner p{font-size:13px;color:var(--muted)}
+
+.section{padding:90px 0}
+.section-head{max-width:700px}
+.eyebrow{color:#a87927;text-transform:uppercase;letter-spacing:.13em;font-size:11px;font-weight:790}
+.section h2{font-size:clamp(36px,4.7vw,58px);margin-top:10px}
+.section-head p{color:var(--muted);margin-top:14px;max-width:650px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:38px}
+.card{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;
+  min-height:210px;box-shadow:0 12px 30px rgba(15,24,18,.045)
+}
+.number{font-family:var(--display);font-size:13px;color:#aa7a29;font-weight:790}
+.card h3{font-size:25px;margin-top:48px}
+.card p{font-size:13px;color:var(--muted);margin-top:9px}
+
+.showcase{background:#0b1b14;color:#fff;overflow:hidden}
+.showcase-inner{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:center}
+.showcase .eyebrow{color:var(--gold2)}
+.showcase h2{font-size:clamp(38px,4.6vw,57px)}
+.showcase-copy p{color:#bdc9c1;font-size:15px;margin-top:15px}
+.mini-list{display:grid;gap:13px;margin-top:25px}
+.mini-list div{display:flex;gap:10px;align-items:flex-start;color:#e0e7e2;font-size:13px}
+.mini-list b{color:var(--gold2)}
+.phone{
+  background:linear-gradient(145deg,#112c20,#08140f);border:1px solid var(--line-dark);
+  border-radius:28px;padding:15px;max-width:430px;margin-left:auto;
+  box-shadow:0 35px 70px rgba(0,0,0,.3)
+}
+.phone-screen{background:#f7f5ef;border-radius:19px;overflow:hidden;color:#162019}
+.phone-top{background:#d6a84a;padding:18px 20px;font-family:var(--display);font-weight:790;font-size:21px}
+.phone-body{padding:21px}
+.fake-row{background:#fff;border:1px solid #e7e3d9;padding:15px;border-radius:12px;margin-bottom:10px;font-size:12px}
+.fake-row b{display:block;font-size:14px;margin-bottom:3px}
+
+.offer{background:var(--cream);padding-top:0}
+.offer-box{
+  background:linear-gradient(135deg,#10271c,#08150f);color:#fff;border-radius:22px;
+  padding:45px;display:grid;grid-template-columns:1fr .8fr;gap:50px;
+  box-shadow:0 22px 60px rgba(9,20,13,.16)
+}
+.offer h2{font-size:45px}
+.offer-sub{color:#bac7bf;font-size:14px;margin-top:11px}
+.offer-list{list-style:none;display:grid;gap:13px;margin-top:27px}
+.offer-list li{display:flex;gap:10px;font-size:13px;color:#d6ded9}
+.offer-list i{color:var(--gold2);font-style:normal;font-weight:900}
+.buy{
+  border:1px solid var(--line-dark);background:rgba(255,255,255,.035);
+  border-radius:16px;padding:28px;display:flex;flex-direction:column;justify-content:center
+}
+.buy-label{text-transform:uppercase;letter-spacing:.12em;font-size:10px;color:#9ba89f;font-weight:790}
+.buy .price{font-size:66px;margin:5px 0}
+.saving{font-size:12px;color:var(--gold2);font-weight:790;margin-bottom:20px}
+.buy .cta{width:100%}
+.security{text-align:center;font-size:10px;color:#7f8d84;margin-top:11px}
+
+.faq{padding-top:20px}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:28px}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:13px;padding:21px}
+.faq-item b{font-family:var(--display);font-size:19px}
+.faq-item p{font-size:12px;color:var(--muted);margin-top:6px}
+
+.footer{background:#050b08;color:#77847c;text-align:center;padding:30px 0 90px;font-size:11px}
+.mobile-cta{
+  display:none;position:fixed;left:0;right:0;bottom:0;z-index:100;
+  padding:10px 13px;background:rgba(5,11,8,.96);border-top:1px solid var(--line-dark);
+  backdrop-filter:blur(12px);align-items:center;gap:12px
+}
+.mobile-cta .price{font-size:27px;margin-right:auto}
+.mobile-cta .cta{padding:12px 16px;font-size:12px}
+
+@media(max-width:900px){
+  .hero-inner{grid-template-columns:1fr;gap:30px;padding-top:110px}
+  .book-area{order:-1}.book{width:260px}
+  .problem-inner,.showcase-inner,.offer-box{grid-template-columns:1fr}
+  .showcase-inner{gap:38px}.phone{margin:auto}
+  .cards{grid-template-columns:1fr}
+  .card{min-height:0}.card h3{margin-top:30px}
+  .offer-box{gap:28px;padding:30px}
+  .faq-grid{grid-template-columns:1fr}
+  .mobile-cta{display:flex}
+  .footer{padding-bottom:88px}
+}
+@media(max-width:560px){
+  .container{width:min(100% - 30px,1140px)}
+  .nav-pill{display:none}
+  .hero-inner{padding-bottom:55px}
+  h1{font-size:48px}
+  .hero-copy .intro{font-size:16px}
+  .hero-actions{align-items:stretch;flex-direction:column}
+  .pricebox{justify-content:flex-start}
+  .cta{width:100%}
+  .problem-inner{padding:20px 0}
+  .section{padding:65px 0}
+  .offer h2{font-size:37px}
+  .buy .price{font-size:57px}
+}
+</style>
 </head>
+
 <body>
+<div class="topbar">Oferta 🎉: <span>Manual completo por 79 MT</span> • acesso imediato</div>
 
-    <div class="top-bar">🎁 Oferta Especial: 50% de Desconto apenas hoje!</div>
+<header class="nav">
+  <div class="container nav-inner">
+    
+    <div class="nav-pill">Edição 2026</div>
+  </div>
+</header>
 
-    <header>
-        <div class="hero-container">
-            <span class="badge">A Estratégia Que Vai Mudar Seus Resultados</span>
-            <h1>O Guia Definitivo do Condutor Inteligente: <span>Poupe Dinheiro</span> e Evite Problemas</h1>
-            <p class="subtitle">O seu guia de  cuidados de carro, manutenção e condução que vai te poupar dinheiro em oficinas e <a style="color: white;">desbloquear</a> a sua mente.</p>
-            
+<main>
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <div class="kicker"><i></i> Para quem quer conduzir melhor</div>
+      <h1>O que todo motorista <span class="gold">deveria saber.</span></h1>
+      <p class="intro">Evite erros, aprenda a reconhecer problemas no carro, evitar gastos desnecessários e conduzir com mais segurança — explicado de forma simples e prática.</p>
+
+      <div class="hero-points">
+        <span>✓ Mecânica básica</span>
+        <span>✓ Prevenção</span>
+        <span>✓ Economia</span>
+      </div>
+
+      <div class="hero-actions">
+        <div class="pricebox">
+          <span class="price-old">110 MT</span>
+          <span class="price">79 MT <small>hoje</small></span>
         </div>
-    </header>
+        <a class="cta" href="https://checkout.escalepay.com/6871517">QUERO O MEU MANUAL <span>→</span></a>
+      </div>
+      <div class="trust"><span>✓ Acesso imediato</span><span>✓ Telemóvel, tablet e PC</span><span>✓ Pagamento seguro</span></div>
+    </div>
 
-    <section class="container book-showcase" id="comprar">
-        <div class="main-card">
-            <div class="book-img-box">
-                <!-- Mockup do Livro -->
-                <img src="0livro.png" alt="Capa do Livro" loading="lazy">
-            </div>
-            
-            <div class="book-details">
-                <h2 style="font-size: 2rem; margin-bottom: 15px;">Adquirir Agora</h2>
-                <p style="color: #64748b; margin-bottom: 20px;">Um guia prático, passo a passo, projetado para condutores que não aceitam menos que a excelência técnica.</p>
-                
-                <div class="price-box">
-                    <span class="old-price" style="color: red;">Antes 155 MT</span>
-                    
-                    <span class="new-price"><span class="old-pricee">Agora</span> 75 MT</span>
-                </div>
+    <div class="book-area">
+      <div class="book-glow"></div>
+      <div class="book">
+        <div class="discount">28%<br>OFF</div>
+        <div class="book-note"><b>EVITE OS ERROS QUE PODEM CUSTAR CARO</b>Para o motorista, e evite gastos desnecessários</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-                <div style="margin-bottom: 30px;">
-                    <p style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: #10b981;"></i> <strong>Acesso Imediato</strong></p>
-                    <p style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: #10b981;"></i> <strong>Bônus:</strong> Dicas Importantes de Condutor e Diagnóstico;</p>
-                    <p><i class="fas fa-check-circle" style="color: #10b981;"></i> <strong>Leitura fácil:</strong> No telemóvel, tablet e PC.</p>
-                </div>
+<div class="problem-strip">
+  <div class="container problem-inner">
+    <strong>Não espere o problema aparecer para começar a aprender.</strong>
+    <p>Conhecimento ajuda a tomar decisões mais informadas sobre manutenção e cuidados com o carro.</p>
+  </div>
+</div>
 
-                <a href="https://checkout.escalepay.com/6871517" class="cta-btn" style="width: 100%; text-align: center;">ACESSAR AGORA</a>
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">O que você vai aprender</div>
+      <h2>Mais confiança ao volante. Menos surpresas.</h2>
+      <p>Conteúdo prático para entender melhor o seu carro e reconhecer situações que merecem atenção.</p>
+    </div>
+    <div class="cards">
+      <article class="card"><div class="number">01</div><h3>Evitar problemas</h3><p>Aprenda a perceber sinais e agir antes que pequenos problemas se tornem maiores.</p></article>
+      <article class="card"><div class="number">02</div><h3>Entender a mecânica</h3><p>Conheça conceitos essenciais para conversar melhor sobre manutenção e reparos.</p></article>
+      <article class="card"><div class="number">03</div><h3>Poupar dinheiro</h3><p>Tenha mais conhecimento para reduzir gastos desnecessários na manutenção do veículo.</p></article>
+    </div>
+  </div>
+</section>
 
-                <div class="guarantee">
-                    <i class="fas fa-shield-alt" style="font-size: 1.5rem; color: green;"></i>
-                    <p style="font-size: 0.85rem; color: green;"><strong>GARANTIA DE SATISFAÇÃO:</strong> Receba o conteúdo original e atualizado ou seu dinheiro de volta.</p>
-                </div>
-            </div>
+<section class="section showcase">
+  <div class="container showcase-inner">
+    <div class="showcase-copy">
+      <div class="eyebrow">Feito para a vida real</div>
+      <h2>Aprenda no seu ritmo, onde estiver.</h2>
+      <p>Um material pensado para consulta simples, direto ao ponto e fácil de acompanhar no dia a dia.</p>
+      <div class="mini-list">
+        <div><span>✓</span><span><b>Conteúdo prático</b> para situações comuns.</span></div>
+        <div><span>✓</span><span><b>Linguagem simples</b> para facilitar a compreensão.</span></div>
+        <div><span>✓</span><span><b>Acesso imediato</b> após a confirmação do pagamento.</span></div>
+      </div>
+    </div>
+    <div class="phone">
+      <div class="phone-screen">
+        <div class="phone-top">Manual do Condutor</div>
+        <div class="phone-body">
+          <div class="fake-row"><b>Cuidados essenciais</b>O que observar antes de conduzir.</div>
+          <div class="fake-row"><b>Manutenção</b>Conhecimentos básicos para cuidar do veículo.</div>
+          <div class="fake-row"><b>Diagnóstico</b>Sinais que merecem atenção.</div>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section style="padding: 20px 5%; text-align: center; background: var(--bg-light);">
-        <h2 style="margin-bottom: 50px;">O que você encontrará no manual</h2>
-        <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
-            <div style="background: white; padding: 30px; border-radius: 20px; width: 300px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
-                <i class="fas fa-car-crash fa-2x" style="color: var(--accent); margin-bottom: 15px;"></i>
-                <h4>Evite Problemas Graves</h4>
-                <p style="font-size: 0.9rem; color: #64748b;">Técnicas de previsão de risco e conheça o veículo.</p>
-            </div>
-            <div style="background: white; padding: 30px; border-radius: 20px; width: 300px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
-                <i class="fas fa-tools fa-2x" style="color: var(--accent); margin-bottom: 15px;"></i>
-                <h4>Mecânica Básica</h4>
-                <p style="font-size: 0.9rem; color: #64748b;">Aprenda a identificar problemas e não seja engando na manutenção.</p>
-            </div>
-            <div style="background: white; padding: 30px; border-radius: 20px; width: 300px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
-                <i class="fas fa-money-bill-wave fa-2x" style="color: var(--accent); margin-bottom: 15px;"></i>
-                <h4>Poupe Dinheiro</h4>
-                <p style="font-size: 0.9rem; color: #64748b;">Truques saudáveis para não gastar tanto nas oficinas.</p>
-            </div>
-        </div>
-    </section>
+<section class="section offer">
+  <div class="container">
+    <div class="offer-box">
+      <div>
+        <div class="eyebrow">Oferta especial</div>
+        <h2>Comece a aprender hoje.</h2>
+        <p class="offer-sub">Tudo o que precisa para começar a conhecer melhor o seu carro.</p>
+        <ul class="offer-list">
+          <li><i>✓</i><span><b>Manual completo do condutor</b> — cuidados, manutenção e condução.</span></li>
+          <li><i>✓</i><span><b>Bónus incluído</b> — dicas de condutor e diagnóstico rápido.</span></li>
+          <li><i>✓</i><span><b>Acesso imediato</b> — link após a confirmação do pagamento.</span></li>
+          <li><i>✓</i><span><b>Leitura fácil</b> — telemóvel, tablet e computador.</span></li>
+        </ul>
+      </div>
+      <div class="buy">
+        <div class="buy-label">Preço especial de hoje</div>
+        <div class="price">79 MT</div>
+        <div class="saving">De 110 MT • poupe 31 MT</div>
+        <a class="cta" href="https://checkout.escalepay.com/6871517">COMPRAR AGORA →</a>
+        <div class="security">Pagamento seguro • acesso imediato</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <footer><div align=center></div>
-        <p><strong>O Guia do Condutor Inteligente 2026</strong></p>
-        <p style="opacity: 0.6; font-size: 0.8rem; margin-top: 10px;">Transformando condutores (motoristas) em especialistas </strong>e <strong style="color: yellow;">Adquira o seu Guia Agora!</strong><br> Maputo, Moçambique.</p>
-    </footer>
+<section class="section faq">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Antes de comprar</div>
+      <h2>Informação simples.</h2>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item"><b>Quando recebo o manual?</b><p>O material original informa que o link é enviado após a confirmação do pagamento.</p></div>
+      <div class="faq-item"><b>Posso ler no telemóvel?</b><p>Sim. O conteúdo está indicado como otimizado para telemóvel, tablet e computador.</p></div>
+    </div>
+  </div>
+</section>
+</main>
 
+<footer class="footer">Manual do Condutor — Edição 2026 • Maputo, Moçambique</footer>
+
+<div class="mobile-cta">
+  <div><small style="display:block;color:#77847c;font-size:9px">HOJE</small><div class="price">79 MT</div></div>
+  <a class="cta" href="https://checkout.escalepay.com/6871517">COMPRAR AGORA</a>
+</div>
 </body>
 </html>
