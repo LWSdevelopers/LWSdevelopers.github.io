@@ -1,7 +1,7 @@
 const anuncioData = {
   imagem: "https://raw.githubusercontent.com/LWSdevelopers/LWSdevelopers.github.io/refs/heads/main/000img.jpg",
   titulo: "",
-  descricao: "🚦 Seu manual para uma melhor preparação.",
+  descricao: "Tenha o conhecimento que pode fazer-lhe poupar milhares. Adquira já!",
   link: "https://abre.ai/picl?target=blank",
   textoBotao: "Ver Oferta"
 };
