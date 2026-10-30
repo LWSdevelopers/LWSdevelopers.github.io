@@ -9,7 +9,7 @@ const anuncioData = {
 const anuncioContainer = document.getElementById("anuncio");
 
 anuncioContainer.innerHTML = `
-  <div class="patrocinado">Melhorias • </div>
+  <div class="patrocinado">Recomendação • </div>
   <div class="conteudo-anuncio">
     <h4>${anuncioData.titulo}</h4>
     <p>${anuncioData.descricao}</p>
