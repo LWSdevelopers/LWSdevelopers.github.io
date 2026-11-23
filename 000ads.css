@@ -22,8 +22,8 @@
 }
 
 .patrocinado {
-  font-size: 10px;
-  color: #333333;
+  font-size: 12px;
+  color: #111111;
   font-style: italic;
   text-align: right;
 }
@@ -33,20 +33,20 @@
   border-radius: 3px;
 }
 
-.conteudo-anuncio h4 {
-  margin: 0 0 08px;
-  color: #008800;
+.conteudo-anuncio h3 {
+  margin: 0 0 10px;
+  color: #2e7d32;
 }
 
 .conteudo-anuncio p {
-  font-size: 13px;
+  font-size: 14px;
   color: #444;
   margin: 0;
 }
 
 .botao-anuncio {
   align-self: flex-end;
-  background-color: #008800;
+  background-color: #4CAF50;
   color: white;
   padding: 10px 18px;
   border: none;
@@ -58,5 +58,5 @@
 }
 
 .botao-anuncio:hover {
-  background-color: #008800;
+  background-color: #45a049;
 }
